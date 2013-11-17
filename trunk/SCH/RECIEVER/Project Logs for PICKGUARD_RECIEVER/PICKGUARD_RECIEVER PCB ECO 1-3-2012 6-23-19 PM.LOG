@@ -1,0 +1,10 @@
+Removed Pin From Net: NetName=GND Pin=J1-4
+Removed Pin From Net: NetName=GND Pin=J1-G
+Change Component DesignItemId : Designator=J1 Old DesignItemId=NE8FAH New DesignItemId=ACJS-MHDR
+Change Component Comment : Designator=J1 Old Comment=NE8FAH New Comment=ACJS-MHDR
+Change Component Description : Designator=J1 Old Description=Telecom & Ethernet Connectors HORIZON PCB RECEPT ALL PLASTIC New Description=AMPHENOL - ACJS-MHDR - JACK, 6.35MM, PCB, STEREO
+Added Pin To Net: NetName=+9V Pin=J1-4
+Added Pin To Net: NetName=GND Pin=J1-6
+Added Pin To Net: NetName=+9V Pin=U6-5
+Added Pin To Net: NetName=+9V Pin=U6-8
+Change Net Name : Old Net Name=+9V New Net Name=AES+

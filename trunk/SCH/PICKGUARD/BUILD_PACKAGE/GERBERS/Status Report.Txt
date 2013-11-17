@@ -1,0 +1,13 @@
+Output: GERBERS
+Type  : NC Drill
+From  : PCB Document [ACTIVE_PICKGUARD.PcbDoc]
+   Generated File[ACTIVE_PICKGUARD.TXT]
+   Generated File[ACTIVE_PICKGUARD.DRL]
+   Generated File[ACTIVE_PICKGUARD.LDP]
+   Generated File[ACTIVE_PICKGUARD.DRR]
+
+
+Files Generated   : 4
+Documents Printed : 0
+
+Finished Output Generation At 5:55:50 PM On 8/21/2011

@@ -1,0 +1,9 @@
+Change Component DesignItemId : Designator=C14 Old DesignItemId=0603ZC224JAT2A New DesignItemId=GRM188R71H223KA01D
+Change Component DesignItemId : Designator=R16 Old DesignItemId=ERJ-3GEYJ102V New DesignItemId=ERJ-3EKF3001V
+Change Component DesignItemId : Designator=C15 Old DesignItemId=GRM188R71E103KA01D New DesignItemId=GRM1885C1H102JA01D
+Change Component Comment : Designator=C14 Old Comment=0.22uF New Comment=22000pF
+Change Component Comment : Designator=R16 Old Comment=1k New Comment=3.0k
+Change Component Comment : Designator=C15 Old Comment=10000pF New Comment=1000pF
+Change Component Description : Designator=C15 Old Description=CAP CER 10000PF 25V 10% X7R 0603 New Description=CAP CER 1000PF 50V 5% C0G 0603
+Change Component Description : Designator=C14 Old Description=CAP CER .22UF 10V X7R 0603 New Description=CAP CER 22000PF 50V 10% X7R 0603
+Change Component Description : Designator=R16 Old Description=RES 1.00K OHM 1/10W 1% 0603 SMD New Description=RES 3.00K OHM 1/10W 1% 0603 SMD

@@ -1,0 +1,12 @@
+Removed Pin From Net: NetName=NV/ERR Pin=R10-1
+Removed Pin From Net: NetName=+3.3V_D Pin=R10-2
+Removed Pin From Net: NetName=PHASE_RATE Pin=R11-1
+Removed Pin From Net: NetName=+3.3V_D Pin=R11-2
+Removed Pin From Net: NetName=EMPH Pin=R12-1
+Removed Pin From Net: NetName=+3.3V_D Pin=R12-2
+Removed Pin From Net: NetName=RMCK Pin=R13-1
+Removed Pin From Net: NetName=+3.3V_D Pin=R13-2
+Removed Pin From Net: NetName=SFSEL1 Pin=R15-1
+Removed Pin From Net: NetName=+3.3V_D Pin=R15-2
+Removed Pin From Net: NetName=GND Pin=R22-1
+Removed Pin From Net: NetName=SFSEL0 Pin=R22-2

@@ -1,0 +1,32 @@
+Removed Pin From Net: NetName=NetJ2_5 Pin=J2-6
+Removed Pin From Net: NetName=NetJ2_5 Pin=R32-2
+Removed Pin From Net: NetName=NetC4_2 Pin=U1-6
+Added Component: Designator=C1(C0603)
+Added Component: Designator=POT1(3310C-001-103L)
+Added Component: Designator=R34(R0603)
+Added Component: Designator=U2(SOT95P245X145-5L)
+Added Pin To Net: NetName=+3.3V_A Pin=C1-1
+Added Pin To Net: NetName=AGND Pin=C1-2
+Added Pin To Net: NetName=NetC4_1 Pin=R34-2
+Added Pin To Net: NetName=NetC4_2 Pin=U2-1
+Added Pin To Net: NetName=AGND Pin=U2-2
+Added Pin To Net: NetName=NetC4_2 Pin=U2-4
+Added Pin To Net: NetName=+3.3V_A Pin=U2-5
+Added Pin To Net: NetName=NetJ2_6 Pin=J2-6
+Added Pin To Net: NetName=NetJ2_6 Pin=R32-2
+Added Pin To Net: NetName=NetJ2_6 Pin=R34-1
+Added Net: Name=NetJ2_6
+Added Pin To Net: NetName=NetPOT1_1 Pin=POT1-1
+Added Pin To Net: NetName=NetPOT1_1 Pin=R1-1
+Added Pin To Net: NetName=NetPOT1_1 Pin=U3-1
+Added Pin To Net: NetName=NetPOT1_1 Pin=U3-4
+Added Net: Name=NetPOT1_1
+Added Pin To Net: NetName=NetPOT1_2 Pin=POT1-2
+Added Pin To Net: NetName=NetPOT1_2 Pin=U2-3
+Added Net: Name=NetPOT1_2
+Added Pin To Net: NetName=NetPOT1_3 Pin=POT1-3
+Added Pin To Net: NetName=NetPOT1_3 Pin=U1-6
+Added Net: Name=NetPOT1_3
+Added Pin To Net: NetName=NetR2_1 Pin=R2-1
+Added Pin To Net: NetName=NetR2_1 Pin=U1-5
+Added Net: Name=NetR2_1

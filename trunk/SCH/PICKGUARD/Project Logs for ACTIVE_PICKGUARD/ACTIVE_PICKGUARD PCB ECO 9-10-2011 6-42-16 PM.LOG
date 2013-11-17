@@ -1,0 +1,27 @@
+Change Component DesignItemId : Designator=R43 Old DesignItemId=ERJ-3GEY0R00V New DesignItemId=ERJ-3EKF1002V
+Change Component DesignItemId : Designator=R45 Old DesignItemId=ERJ-3GEY0R00V New DesignItemId=ERJ-3EKF1002V
+Change Component DesignItemId : Designator=R47 Old DesignItemId=ERJ-3GEY0R00V New DesignItemId=ERJ-3EKF1002V
+Change Component DesignItemId : Designator=R49 Old DesignItemId=ERJ-3GEY0R00V New DesignItemId=ERJ-3EKF1002V
+Change Component DesignItemId : Designator=R107 Old DesignItemId=RC0603FR-0710ML New DesignItemId=ERJ-3EKF1004V
+Change Component Comment : Designator=R43 Old Comment=0 New Comment=10k
+Change Component Comment : Designator=R45 Old Comment=0 New Comment=10k
+Change Component Comment : Designator=R47 Old Comment=0 New Comment=10k
+Change Component Comment : Designator=R49 Old Comment=0 New Comment=10k
+Change Component Comment : Designator=R107 Old Comment=10.0M New Comment=1M
+Change Component Comment : Designator=U6 Old Comment=LM2937IMP-3.3/NOPB New Comment=Value
+Change Component Comment : Designator=U9 Old Comment=LM2937IMP-3.3/NOPB New Comment=Value
+Change Component Description : Designator=R107 Old Description=RES 10.0M OHM 1/10W 1% 0603 SMD New Description=RES 1.00M OHM 1/10W 1% 0603 SMD
+Change Component Description : Designator=R43 Old Description=RES ZERO OHM 1/10W 5% 0603 SMD New Description=RES 10.0K OHM 1/10W 1% 0603 SMD
+Change Component Description : Designator=R45 Old Description=RES ZERO OHM 1/10W 5% 0603 SMD New Description=RES 10.0K OHM 1/10W 1% 0603 SMD
+Change Component Description : Designator=R47 Old Description=RES ZERO OHM 1/10W 5% 0603 SMD New Description=RES 10.0K OHM 1/10W 1% 0603 SMD
+Change Component Description : Designator=R49 Old Description=RES ZERO OHM 1/10W 5% 0603 SMD New Description=RES 10.0K OHM 1/10W 1% 0603 SMD
+Change Component Kind : Designator=H10 Old Kind=Standard New Kind=Standard (No BOM)
+Change Component Kind : Designator=H9 Old Kind=Standard New Kind=Standard (No BOM)
+Change Component Kind : Designator=H8 Old Kind=Standard New Kind=Standard (No BOM)
+Change Component Kind : Designator=H7 Old Kind=Standard New Kind=Standard (No BOM)
+Change Component Kind : Designator=H6 Old Kind=Standard New Kind=Standard (No BOM)
+Change Component Kind : Designator=H5 Old Kind=Standard New Kind=Standard (No BOM)
+Change Component Kind : Designator=H4 Old Kind=Standard New Kind=Standard (No BOM)
+Change Component Kind : Designator=H3 Old Kind=Standard New Kind=Standard (No BOM)
+Change Component Kind : Designator=H2 Old Kind=Standard New Kind=Standard (No BOM)
+Change Component Kind : Designator=H1 Old Kind=Standard New Kind=Standard (No BOM)

@@ -1,0 +1,19 @@
+---------------------------------------------------------------------------
+NCDrill File Report For: JACK_ADAPTER.PcbDoc   9/18/2011  7:02:15 PM
+---------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : JACK_ADAPTER.TXT
+EIA File   : JACK_ADAPTER.DRL
+
+Tool         Hole Size           Hole Type     Hole Count Plated       Tool Travel
+---------------------------------------------------------------------------
+T1        20mil (0.508mm)          Round          16               0.52 Inch (13.08 mm)
+T2        35.43mil (0.89992mm)     Round          16               2.03 Inch (51.68 mm)
+T3        65mil (1.651mm)          Round          2                0.64 Inch (16.26 mm)
+T4        122mil (3.0988mm)        Round          1                0.00 Inch (0.00 mm)
+T5        128mil (3.2512mm)        Round          2         NPTH   0.50 Inch (12.70 mm)
+---------------------------------------------------------------------------
+Totals                                            37               3.69 Inch (93.72 mm)
+
+Total Processing Time (hh:mm:ss) : 00:00:00

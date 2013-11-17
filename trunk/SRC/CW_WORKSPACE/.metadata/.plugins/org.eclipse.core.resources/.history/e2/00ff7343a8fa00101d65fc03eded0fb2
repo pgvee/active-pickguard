@@ -1,0 +1,5 @@
+Project_Settings/Startup_Code/kinetis_sysinit.obj: C:\eli\PERSONAL\ACTIVE_PICKGUARD\SRC\CW_WORKSPACE\USB_TEST\Project_Settings\Startup_Code\kinetis_sysinit.c \
+	C:\Freescale\CW10\MCU\ARM_EABI_Support\ewl\EWL_C\include\lib_ewl.prefix \
+	C:\Freescale\CW10\MCU\ARM_EABI_Support\ewl\EWL_C\include\common.prefix \
+	C:\Freescale\CW10\MCU\ARM_EABI_Support\ewl\EWL_C\include\ewl_c_version.h \
+	C:\eli\PERSONAL\ACTIVE_PICKGUARD\SRC\CW_WORKSPACE\USB_TEST\Project_Settings\Startup_Code\kinetis_sysinit.h 

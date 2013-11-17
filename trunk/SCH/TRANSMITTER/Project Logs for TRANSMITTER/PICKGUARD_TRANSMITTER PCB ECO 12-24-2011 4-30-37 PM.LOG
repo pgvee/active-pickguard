@@ -1,0 +1,133 @@
+Removed Pin From Net: NetName=GND Pin=C13-1
+Removed Pin From Net: NetName=GND Pin=C15-1
+Removed Pin From Net: NetName=GND Pin=C17-2
+Removed Pin From Net: NetName=GND Pin=C29-1
+Removed Pin From Net: NetName=+3.3V_A Pin=C29-2
+Removed Pin From Net: NetName=GND Pin=C30-1
+Removed Pin From Net: NetName=GND Pin=C31-1
+Removed Pin From Net: NetName=+9V Pin=D1-A
+Removed Pin From Net: NetName=GND Pin=R6-2
+Removed Pin From Net: NetName=GND Pin=R18-1
+Removed Pin From Net: NetName=GND Pin=R19-1
+Removed Pin From Net: NetName=GND Pin=R20-1
+Removed Pin From Net: NetName=GND Pin=R21-1
+Removed Pin From Net: NetName=GND Pin=R23-1
+Removed Pin From Net: NetName=GND Pin=R30-1
+Removed Pin From Net: NetName=+3.3V_A Pin=U5-6
+Removed Pin From Net: NetName=GND Pin=U5-7
+Removed Pin From Net: NetName=GND Pin=U5-10
+Removed Pin From Net: NetName=GND Pin=U5-11
+Removed Pin From Net: NetName=GND Pin=U5-12
+Removed Pin From Net: NetName=GND Pin=U5-13
+Removed Pin From Net: NetName=GND Pin=U5-22
+Removed Pin From Net: NetName=MCLK Pin=U5-24
+Removed Pin From Net: NetName=SCLK Pin=U5-27
+Removed Pin From Net: NetName=MCLK Pin=U11-1
+Removed Pin From Net: NetName=MCLK Pin=U11-2
+Removed Pin From Net: NetName=GND Pin=U11-3
+Removed Member From Class: ClassName=PICKGUARD_TRANSMITTER Member=C18
+Removed Member From Class: ClassName=PICKGUARD_TRANSMITTER Member=C29
+Removed Member From Class: ClassName=PICKGUARD_TRANSMITTER Member=C30
+Removed Member From Class: ClassName=PICKGUARD_TRANSMITTER Member=C31
+Removed Member From Class: ClassName=PICKGUARD_TRANSMITTER Member=D1
+Removed Member From Class: ClassName=PICKGUARD_TRANSMITTER Member=Q1
+Removed Member From Class: ClassName=PICKGUARD_TRANSMITTER Member=R6
+Removed Member From Class: ClassName=PICKGUARD_TRANSMITTER Member=R7
+Removed Member From Class: ClassName=PICKGUARD_TRANSMITTER Member=R8
+Removed Member From Class: ClassName=PICKGUARD_TRANSMITTER Member=R9
+Removed Member From Class: ClassName=PICKGUARD_TRANSMITTER Member=R14
+Removed Member From Class: ClassName=PICKGUARD_TRANSMITTER Member=R16
+Removed Member From Class: ClassName=PICKGUARD_TRANSMITTER Member=R18
+Removed Member From Class: ClassName=PICKGUARD_TRANSMITTER Member=R19
+Removed Member From Class: ClassName=PICKGUARD_TRANSMITTER Member=R20
+Removed Member From Class: ClassName=PICKGUARD_TRANSMITTER Member=R21
+Removed Member From Class: ClassName=PICKGUARD_TRANSMITTER Member=R23
+Removed Member From Class: ClassName=PICKGUARD_TRANSMITTER Member=R30
+Removed Member From Class: ClassName=PICKGUARD_TRANSMITTER Member=U5
+Removed Member From Class: ClassName=PICKGUARD_TRANSMITTER Member=U11
+Change Component DesignItemId : Designator=C10 Old DesignItemId=C New DesignItemId=C1608C0G1H181J
+Change Component DesignItemId : Designator=C12 Old DesignItemId=C New DesignItemId=GRM188R71H104KA93D
+Change Component DesignItemId : Designator=C13 Old DesignItemId=GRM21BR71C105KA01L New DesignItemId=GRM188R71H104KA93D
+Change Component DesignItemId : Designator=C14 Old DesignItemId=GRM188R71H223KA01D New DesignItemId=C1608C0G1H181J
+Change Component Footprint: Designator=C13 Old Footprint=C0805 New Footprint=C0603
+Change Component Comment : Designator=C10 Old Comment=0.1uF New Comment=180pF
+Change Component Comment : Designator=C13 Old Comment=1.0uF New Comment=0.1uF
+Change Component Comment : Designator=C14 Old Comment=22000pF New Comment=180pF
+Change Component Designator: OldDesignator=C16 NewDesignator=C15
+Change Component Designator: OldDesignator=C18 NewDesignator=C17
+Change Component Description : Designator=C14 Old Description=CAP CER 22000PF 50V 10% X7R 0603 New Description=CAP CER 180PF 50V 5% NP0 0603
+Change Component Description : Designator=C10 Old Description=CAP CER .1UF 50V 10% X7R 0603 New Description=CAP CER 180PF 50V 5% NP0 0603
+Change Component Library : Designator=C10 Old Library=Playworld.IntLib New Library=eCapacitors.SchLib
+Change Component Library : Designator=C12 Old Library=Playworld.IntLib New Library=eCapacitors.SchLib
+Added Component: Designator=R2(R0603)
+Added Component: Designator=R3(R0603)
+Added Component: Designator=R4(R0603)
+Added Component: Designator=U1(SOIC127P1030X250-28L)
+Added Pin To Net: NetName=AUDIO_RIGHT Pin=C9-2
+Added Pin To Net: NetName=NetC9_1 Pin=C10-1
+Added Pin To Net: NetName=GND Pin=C10-2
+Added Pin To Net: NetName=AUDIO_LEFT Pin=C11-2
+Added Pin To Net: NetName=NetC5_2 Pin=C12-2
+Added Pin To Net: NetName=NetC5_2 Pin=C13-2
+Added Pin To Net: NetName=NetC11_1 Pin=C14-2
+Added Pin To Net: NetName=NetC5_2 Pin=C20-2
+Added Pin To Net: NetName=NetC5_2 Pin=L1-1
+Added Pin To Net: NetName=NetC5_2 Pin=R4-1
+Added Pin To Net: NetName=NetC5_2 Pin=U1-1
+Added Pin To Net: NetName=NetC5_2 Pin=U1-5
+Added Pin To Net: NetName=NetC5_2 Pin=U1-6
+Added Pin To Net: NetName=NetC5_2 Pin=U1-9
+Added Pin To Net: NetName=LRCLK Pin=U1-12
+Added Pin To Net: NetName=SCLK Pin=U1-13
+Added Pin To Net: NetName=NetC5_2 Pin=U1-15
+Added Pin To Net: NetName=MCLK Pin=U1-21
+Added Pin To Net: NetName=NetC5_2 Pin=U1-23
+Added Pin To Net: NetName=NetC5_2 Pin=U1-24
+Added Pin To Net: NetName=NetC5_2 Pin=U1-28
+Added Pin To Net: NetName=NetC5_2 Pin=U8-3
+Change Net Name : Old Net Name=NetC5_2 New Net Name=+3.3V_D
+Change Net Name : Old Net Name=NetC16_2 New Net Name=NetC15_2
+Added Pin To Net: NetName=DGND Pin=C12-1
+Added Pin To Net: NetName=DGND Pin=C13-1
+Added Pin To Net: NetName=DGND Pin=U1-2
+Added Pin To Net: NetName=DGND Pin=U1-4
+Added Pin To Net: NetName=DGND Pin=U1-7
+Added Pin To Net: NetName=DGND Pin=U1-8
+Added Pin To Net: NetName=DGND Pin=U1-10
+Added Pin To Net: NetName=DGND Pin=U1-16
+Added Pin To Net: NetName=DGND Pin=U1-17
+Added Pin To Net: NetName=DGND Pin=U1-18
+Added Pin To Net: NetName=DGND Pin=U1-19
+Added Pin To Net: NetName=DGND Pin=U1-20
+Added Pin To Net: NetName=DGND Pin=U1-22
+Added Pin To Net: NetName=DGND Pin=U1-27
+Added Net: Name=DGND
+Added Pin To Net: NetName=NetR1_1 Pin=R1-1
+Added Pin To Net: NetName=NetR1_1 Pin=U1-14
+Added Pin To Net: NetName=NetR1_1 Pin=U4-1
+Added Net: Name=NetR1_1
+Added Pin To Net: NetName=NetR2_1 Pin=R2-1
+Added Pin To Net: NetName=NetR2_1 Pin=U6-1
+Added Net: Name=NetR2_1
+Added Pin To Net: NetName=NetR2_2 Pin=R2-2
+Added Pin To Net: NetName=NetR2_2 Pin=U1-26
+Added Net: Name=NetR2_2
+Added Pin To Net: NetName=NetR3_1 Pin=R3-1
+Added Pin To Net: NetName=NetR3_1 Pin=U6-4
+Added Net: Name=NetR3_1
+Added Pin To Net: NetName=NetR3_2 Pin=R3-2
+Added Pin To Net: NetName=NetR3_2 Pin=U1-25
+Added Net: Name=NetR3_2
+Added Pin To Net: NetName=NetR4_2 Pin=R4-2
+Added Pin To Net: NetName=NetR4_2 Pin=U1-3
+Added Net: Name=NetR4_2
+Added Member To Class: ClassName=PICKGUARD_TRANSMITTER Member=Component C6 0.1uF
+Added Member To Class: ClassName=PICKGUARD_TRANSMITTER Member=Component C7 1.0uF
+Added Member To Class: ClassName=PICKGUARD_TRANSMITTER Member=Component C8 0.1uF
+Added Member To Class: ClassName=PICKGUARD_TRANSMITTER Member=Component C9 1.0uF
+Added Member To Class: ClassName=PICKGUARD_TRANSMITTER Member=Component C11 1.0uF
+Added Member To Class: ClassName=PICKGUARD_TRANSMITTER Member=Component R2 33
+Added Member To Class: ClassName=PICKGUARD_TRANSMITTER Member=Component R3 33
+Added Member To Class: ClassName=PICKGUARD_TRANSMITTER Member=Component R4 10k
+Added Member To Class: ClassName=PICKGUARD_TRANSMITTER Member=Component U1 
+Added Member To Class: ClassName=PICKGUARD_TRANSMITTER Member=Component U4 CS5343-CZZ

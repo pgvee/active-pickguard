@@ -1,0 +1,7 @@
+Removed Pin From Net: NetName=GND Pin=C17-1
+Removed Pin From Net: NetName=+3.3V_D Pin=C17-2
+Change Component DesignItemId : Designator=C17 Old DesignItemId=GRM21BR71C105KA01L New DesignItemId=C
+Change Component Footprint: Designator=C17 Old Footprint=C0805 New Footprint=C0603
+Change Component Comment : Designator=C17 Old Comment=1.0uF New Comment=0.1uF
+Added Pin To Net: NetName=+3.3V_D Pin=C17-1
+Added Pin To Net: NetName=GND Pin=C17-2

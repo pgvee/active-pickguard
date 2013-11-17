@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BeanCache>
+  <Header>
+    <Name>MK51N512LQ100</Name>
+    <Type>MK51N512LQ100</Type>
+    <Description>Freescale Kinetis family : MK51 in 144 pin LQFP package</Description>
+    <Author>Processor Expert/PC</Author>
+    <Version>01.000</Version>
+    <Icon>CPU_CHIP2</Icon>
+    <TypesFiles>PE,FreescaleKinetis,_Kinetis\*,MK51N512LQ100\*</TypesFiles>
+    <FileVersion>6</FileVersion>
+  </Header>
+  <Options>
+    <BeanLevel>High</BeanLevel>
+    <BW_HelpFiles>CPU,Properties,Methods,Events,"User Types",Used</BW_HelpFiles>
+    <PE_SpeedModeList>yes</PE_SpeedModeList>
+    <BW_DetailedHelp>yes</BW_DetailedHelp>
+    <Licence>Basic beans</Licence>
+    <BW_NeedUst>8</BW_NeedUst>
+    <BW_AutoSaveHelp>yes</BW_AutoSaveHelp>
+    <BW_AutoSaveDriver>yes</BW_AutoSaveDriver>
+    <BW_HelpType>CPUsFull</BW_HelpType>
+    <Category>CPU-Freescale-Kinetis-MK50D (100MHz)</Category>
+    <DemoDriver>yes</DemoDriver>
+    <BeanStatus>RELEASE</BeanStatus>
+    <GroupCategory>CPUs</GroupCategory>
+    <BW_NeedCns>14</BW_NeedCns>
+    <BW_NeedTps>yes</BW_NeedTps>
+  </Options>
+</BeanCache>
+

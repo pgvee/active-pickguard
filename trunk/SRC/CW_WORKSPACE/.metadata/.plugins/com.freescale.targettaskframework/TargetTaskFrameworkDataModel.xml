@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TargetTaskFramework>
+<Element Type="TaskGroup">
+<TaskGroup GroupName="Root" NumberOfElements="1">
+<Element Type="TaskGroup">
+<TaskGroup GroupName="AutoFlash" NumberOfElements="0"/>
+</Element>
+</TaskGroup>
+</Element>
+<RunConfiguration ContextName="Active Debug Context" ExecutionContextType="ActiveDebugContext"/>
+<RunConfiguration ContextDescription="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#x0D;&#x0A;&lt;launchConfiguration local=&quot;false&quot; path=&quot;/PICKGUARD/Project_Settings/Debugger/PICKGUARD_PK40X256_INTERNAL_FLASH_OSJTAG.launch&quot;/&gt;&#x0D;&#x0A;" ContextName="PICKGUARD_PK40X256_INTERNAL_FLASH_OSJTAG" ExecutionContextType="LaunchConfiguration"/>
+<Provider ProviderName="Hardware Diagnostic"/>
+<Provider ProviderName="Import/Export/Fill Memory"/>
+<Provider ProviderName="Flash Programmer"/>
+<Provider ProviderName="Flash Programmer for ColdFire V234"/>
+<Provider ProviderName="Flash Programmer for Kinetis"/>
+<Provider ProviderName="Flash Programmer for HCS08/RS08/ColdFire V1"/>
+</TargetTaskFramework>

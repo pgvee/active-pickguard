@@ -1,0 +1,10 @@
+Added Component: Designator=T1(SMT_TEST)
+Added Component: Designator=T2(SMT_TEST)
+Added Component: Designator=T3(SMT_TEST)
+Added Component: Designator=T4(SMT_TEST)
+Added Component: Designator=T5(SMT_TEST)
+Added Pin To Net: NetName=NetJ2_5 Pin=T1-1
+Added Pin To Net: NetName=NetJ2_6 Pin=T2-1
+Added Pin To Net: NetName=GND Pin=T3-1
+Added Pin To Net: NetName=GND Pin=T4-1
+Added Pin To Net: NetName=GND Pin=T5-1

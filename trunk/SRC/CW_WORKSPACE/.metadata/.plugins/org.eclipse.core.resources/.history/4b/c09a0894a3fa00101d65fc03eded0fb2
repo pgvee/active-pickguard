@@ -1,0 +1,76 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+-include ../../makefile.local
+
+# Add inputs and outputs from these tool invocations to the build variables 
+C_SRCS_QUOTED += \
+"C:/Program Files (x86)/Freescale/Freescale USB Stack with PHDC v3.1/Source/Device/source/driver/kinetis/usb_dci_kinetis.c" \
+"C:/Program Files (x86)/Freescale/Freescale USB Stack with PHDC v3.1/Source/Device/source/driver/usb_driver.c" \
+"C:/Program Files (x86)/Freescale/Freescale USB Stack with PHDC v3.1/Source/Device/source/common/usb_framework.c" \
+
+C_SRCS += \
+C:/Program\ Files\ (x86)/Freescale/Freescale\ USB\ Stack\ with\ PHDC\ v3.1/Source/Device/source/driver/kinetis/usb_dci_kinetis.c \
+C:/Program\ Files\ (x86)/Freescale/Freescale\ USB\ Stack\ with\ PHDC\ v3.1/Source/Device/source/driver/usb_driver.c \
+C:/Program\ Files\ (x86)/Freescale/Freescale\ USB\ Stack\ with\ PHDC\ v3.1/Source/Device/source/common/usb_framework.c \
+
+OBJS += \
+./Sources/driver/usb_dci_kinetis.obj \
+./Sources/driver/usb_driver.obj \
+./Sources/driver/usb_framework.obj \
+
+C_DEPS += \
+./Sources/driver/usb_dci_kinetis.d \
+./Sources/driver/usb_driver.d \
+./Sources/driver/usb_framework.d \
+
+OBJS_QUOTED += \
+"./Sources/driver/usb_dci_kinetis.obj" \
+"./Sources/driver/usb_driver.obj" \
+"./Sources/driver/usb_framework.obj" \
+
+OBJS_OS_FORMAT += \
+./Sources/driver/usb_dci_kinetis.obj \
+./Sources/driver/usb_driver.obj \
+./Sources/driver/usb_framework.obj \
+
+
+# Each subdirectory must supply rules for building sources it contributes
+Sources/driver/usb_dci_kinetis.obj: C:/Program\ Files\ (x86)/Freescale/Freescale\ USB\ Stack\ with\ PHDC\ v3.1/Source/Device/source/driver/kinetis/usb_dci_kinetis.c
+	@echo 'Building file: $<'
+	@echo 'Invoking: ARM Compiler'
+	"$(ARM_ToolsDirEnv)/mwccarm" -gccinc @@"Sources/driver/usb_dci_kinetis.args" -o "Sources/driver/usb_dci_kinetis.obj" -c "$<" -MD -gccdep
+	@echo 'Finished building: $<'
+	@echo ' '
+
+Sources/driver/usb_dci_kinetis.d: C:/Program\ Files\ (x86)/Freescale/Freescale\ USB\ Stack\ with\ PHDC\ v3.1/Source/Device/source/driver/kinetis/usb_dci_kinetis.c
+	@echo 'Regenerating dependency file: $@'
+	
+	@echo ' '
+
+Sources/driver/usb_driver.obj: C:/Program\ Files\ (x86)/Freescale/Freescale\ USB\ Stack\ with\ PHDC\ v3.1/Source/Device/source/driver/usb_driver.c
+	@echo 'Building file: $<'
+	@echo 'Invoking: ARM Compiler'
+	"$(ARM_ToolsDirEnv)/mwccarm" -gccinc @@"Sources/driver/usb_driver.args" -o "Sources/driver/usb_driver.obj" -c "$<" -MD -gccdep
+	@echo 'Finished building: $<'
+	@echo ' '
+
+Sources/driver/usb_driver.d: C:/Program\ Files\ (x86)/Freescale/Freescale\ USB\ Stack\ with\ PHDC\ v3.1/Source/Device/source/driver/usb_driver.c
+	@echo 'Regenerating dependency file: $@'
+	
+	@echo ' '
+
+Sources/driver/usb_framework.obj: C:/Program\ Files\ (x86)/Freescale/Freescale\ USB\ Stack\ with\ PHDC\ v3.1/Source/Device/source/common/usb_framework.c
+	@echo 'Building file: $<'
+	@echo 'Invoking: ARM Compiler'
+	"$(ARM_ToolsDirEnv)/mwccarm" -gccinc @@"Sources/driver/usb_framework.args" -o "Sources/driver/usb_framework.obj" -c "$<" -MD -gccdep
+	@echo 'Finished building: $<'
+	@echo ' '
+
+Sources/driver/usb_framework.d: C:/Program\ Files\ (x86)/Freescale/Freescale\ USB\ Stack\ with\ PHDC\ v3.1/Source/Device/source/common/usb_framework.c
+	@echo 'Regenerating dependency file: $@'
+	
+	@echo ' '
+
+

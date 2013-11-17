@@ -1,0 +1,53 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+-include ../makefile.local
+
+# Add inputs and outputs from these tool invocations to the build variables 
+C_SRCS_QUOTED += \
+"../Sources/Clock.c" \
+"../Sources/main.c" \
+
+C_SRCS += \
+../Sources/Clock.c \
+../Sources/main.c \
+
+OBJS += \
+./Sources/Clock.obj \
+./Sources/main.obj \
+
+C_DEPS += \
+./Sources/Clock.d \
+./Sources/main.d \
+
+OBJS_QUOTED += \
+"./Sources/Clock.obj" \
+"./Sources/main.obj" \
+
+OBJS_OS_FORMAT += \
+./Sources/Clock.obj \
+./Sources/main.obj \
+
+
+# Each subdirectory must supply rules for building sources it contributes
+Sources/Clock.obj: ../Sources/Clock.c
+	@echo 'Building file: $<'
+	@echo 'Invoking: ARM Compiler'
+	"$(ARM_ToolsDirEnv)/mwccarm" -gccinc @@"Sources/Clock.args" -o "Sources/Clock.obj" -c "$<" -MD -gccdep
+	@echo 'Finished building: $<'
+	@echo ' '
+
+Sources/%.d: ../Sources/%.c
+	@echo 'Regenerating dependency file: $@'
+	
+	@echo ' '
+
+Sources/main.obj: ../Sources/main.c
+	@echo 'Building file: $<'
+	@echo 'Invoking: ARM Compiler'
+	"$(ARM_ToolsDirEnv)/mwccarm" -gccinc @@"Sources/main.args" -o "Sources/main.obj" -c "$<" -MD -gccdep
+	@echo 'Finished building: $<'
+	@echo ' '
+
+

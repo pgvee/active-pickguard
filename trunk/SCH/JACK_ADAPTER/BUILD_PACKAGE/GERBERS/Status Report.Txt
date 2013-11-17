@@ -1,0 +1,13 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : PCB Document [JACK_ADAPTER.PcbDoc]
+   Generated File[JACK_ADAPTER.TXT]
+   Generated File[JACK_ADAPTER.DRL]
+   Generated File[JACK_ADAPTER.LDP]
+   Generated File[JACK_ADAPTER.DRR]
+
+
+Files Generated   : 4
+Documents Printed : 0
+
+Finished Output Generation At 7:02:15 PM On 9/18/2011

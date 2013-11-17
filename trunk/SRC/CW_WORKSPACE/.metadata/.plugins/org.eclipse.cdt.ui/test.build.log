@@ -1,0 +1,23 @@
+
+**** Build of configuration MK40DX256Z_INTERNAL_RAM for project test ****
+
+C:\Freescale\CW10\gnu\bin\make all 
+'Regenerating dependency file: Project_Settings/Startup_Code/kinetis_sysinit.d'
+' '
+'Regenerating dependency file: Sources/main.d'
+' '
+'Building file: ../Sources/main.c'
+'Invoking: ARM Compiler'
+"C:/Freescale/CW10/MCU/ARM_Tools/Command_Line_Tools/mwccarm" -gccinc @@"Sources/main.args" -o "Sources/main.obj" -c "../Sources/main.c" -MD -gccdep
+'Finished building: ../Sources/main.c'
+' '
+'Building file: ../Project_Settings/Startup_Code/kinetis_sysinit.c'
+'Invoking: ARM Compiler'
+"C:/Freescale/CW10/MCU/ARM_Tools/Command_Line_Tools/mwccarm" -gccinc @@"Project_Settings/Startup_Code/kinetis_sysinit.args" -o "Project_Settings/Startup_Code/kinetis_sysinit.obj" -c "../Project_Settings/Startup_Code/kinetis_sysinit.c" -MD -gccdep
+'Finished building: ../Project_Settings/Startup_Code/kinetis_sysinit.c'
+' '
+'Building target: test.afx'
+'Invoking: ARM Linker'
+"C:/Freescale/CW10/MCU/ARM_Tools/Command_Line_Tools/mwldarm" @@"test.args" -o "test.afx"  
+'Finished building target: test.afx'
+' '

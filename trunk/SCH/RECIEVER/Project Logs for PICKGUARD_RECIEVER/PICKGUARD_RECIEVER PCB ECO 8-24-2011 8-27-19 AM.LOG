@@ -1,0 +1,39 @@
+Removed Pin From Net: NetName=NetC14_2 Pin=C14-2
+Removed Pin From Net: NetName=GND Pin=C16-1
+Removed Pin From Net: NetName=NetC16_2 Pin=C16-2
+Removed Pin From Net: NetName=NetC48_1 Pin=C48-1
+Removed Pin From Net: NetName=NetC48_2 Pin=C48-2
+Removed Pin From Net: NetName=NetC1_1 Pin=R10-1
+Removed Pin From Net: NetName=+3.3V_D Pin=R78-1
+Removed Pin From Net: NetName=NetC14_2 Pin=R78-2
+Added Pin To Net: NetName=GND Pin=C14-1
+Added Pin To Net: NetName=+9V Pin=C14-2
+Added Pin To Net: NetName=NetC14_2 Pin=C14-2
+Added Pin To Net: NetName=AGND Pin=C16-1
+Added Pin To Net: NetName=GND Pin=C16-1
+Added Pin To Net: NetName=+3.3V_D Pin=C16-2
+Added Pin To Net: NetName=NetC16_2 Pin=C16-2
+Added Pin To Net: NetName=+3.3V_A Pin=C48-1
+Added Pin To Net: NetName=+3.3V_A Pin=C48-1
+Added Pin To Net: NetName=NetC16_2 Pin=C48-1
+Added Pin To Net: NetName=NetC48_1 Pin=C48-1
+Added Pin To Net: NetName=AGND Pin=C48-2
+Added Pin To Net: NetName=GND Pin=C48-2
+Added Pin To Net: NetName=GND Pin=C48-2
+Added Pin To Net: NetName=GND Pin=C48-2
+Added Pin To Net: NetName=NetC48_2 Pin=C48-2
+Added Pin To Net: NetName=NetR134_1 Pin=POT1-1
+Added Pin To Net: NetName=NetC1_1 Pin=R10-1
+Added Pin To Net: NetName=NetC10_1 Pin=R10-1
+Added Pin To Net: NetName=AGND Pin=R10-2
+Added Pin To Net: NetName=+3.3V_D Pin=R78-1
+Added Pin To Net: NetName=NetR78_1 Pin=R78-1
+Added Pin To Net: NetName=GND Pin=R78-2
+Added Pin To Net: NetName=NetC14_2 Pin=R78-2
+Change Net Name : Old Net Name=NetR134_1 New Net Name=NetPOT1_1
+Added Pin To Net: NetName=NetPOT1_2 Pin=POT1-2
+Added Pin To Net: NetName=NetPOT1_2 Pin=U14-3
+Added Net: Name=NetPOT1_2
+Added Pin To Net: NetName=NetPOT1_3 Pin=POT1-3
+Added Pin To Net: NetName=NetPOT1_3 Pin=U30-6
+Added Net: Name=NetPOT1_3

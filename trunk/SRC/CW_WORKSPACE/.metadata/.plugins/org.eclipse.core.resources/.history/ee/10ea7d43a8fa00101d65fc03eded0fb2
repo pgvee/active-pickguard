@@ -1,0 +1,23 @@
+Sources/printf.obj: C:\eli\PERSONAL\ACTIVE_PICKGUARD\SRC\CW_WORKSPACE\USB_TEST\Sources\printf.c \
+	C:\Freescale\CW10\MCU\ARM_EABI_Support\ewl\EWL_C\include\lib_ewl.prefix \
+	C:\Freescale\CW10\MCU\ARM_EABI_Support\ewl\EWL_C\include\common.prefix \
+	C:\Freescale\CW10\MCU\ARM_EABI_Support\ewl\EWL_C\include\ewl_c_version.h \
+	C:\Freescale\CW10\MCU\ARM_EABI_Support\ewl\EWL_C\include\stdarg.h \
+	C:\Freescale\CW10\MCU\ARM_EABI_Support\ewl\EWL_C\include\ansi_parms.h \
+	C:\Freescale\CW10\MCU\ARM_EABI_Support\ewl\EWL_C\include\ewlGlobals.h \
+	C:\Freescale\CW10\MCU\ARM_EABI_Support\ewl\EWL_C\include\arm\ansi_prefix.ARM.h \
+	C:\Freescale\CW10\MCU\ARM_EABI_Support\ewl\EWL_C\include\os_enum.h \
+	C:\Freescale\CW10\MCU\ARM_EABI_Support\ewl\EWL_C\include\cstdarg \
+	C:\Freescale\CW10\MCU\ARM_EABI_Support\ewl\EWL_C\include\va_list.h \
+	C:\Freescale\CW10\MCU\ARM_EABI_Support\ewl\EWL_C\include\arm\stdarg.ARM.h \
+	C:\eli\PERSONAL\ACTIVE_PICKGUARD\SRC\CW_WORKSPACE\USB_TEST\Sources\types.h \
+	C:\Freescale\CW10\MCU\ARM_EABI_Support\ewl\EWL_C\include\stddef.h \
+	C:\Freescale\CW10\MCU\ARM_EABI_Support\ewl\EWL_C\include\cstddef \
+	C:\Freescale\CW10\MCU\ARM_EABI_Support\ewl\EWL_C\include\null.h \
+	C:\Freescale\CW10\MCU\ARM_EABI_Support\ewl\EWL_C\include\size_t.h \
+	C:\Freescale\CW10\MCU\ARM_EABI_Support\ewl\EWL_C\include\wchar_t.h \
+	C:\Freescale\CW10\MCU\ARM_EABI_Support\ewl\EWL_C\include\ewl_lib_ext1.h \
+	C:\Freescale\CW10\MCU\ARM_EABI_Support\ewl\EWL_C\include\ewl_rsize_t.h \
+	C:\Freescale\CW10\MCU\ARM_EABI_Support\ewl\EWL_C\include\string.h \
+	C:\Freescale\CW10\MCU\ARM_EABI_Support\ewl\EWL_C\include\cstring \
+	C:\Freescale\CW10\MCU\ARM_EABI_Support\ewl\EWL_C\include\string_api.h 

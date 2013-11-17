@@ -1,0 +1,2 @@
+Removed Pin From Net: NetName=NetPOT1_1 Pin=POT1-1
+Change Net Name : Old Net Name=NetPOT1_1 New Net Name=NetR1_1

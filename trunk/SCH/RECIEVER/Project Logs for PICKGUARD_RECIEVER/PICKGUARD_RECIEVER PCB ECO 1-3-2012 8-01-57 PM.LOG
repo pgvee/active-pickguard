@@ -1,0 +1,18 @@
+Removed Pin From Net: NetName=+9V Pin=J1-4
+Removed Pin From Net: NetName=+9V Pin=J1-5
+Removed Pin From Net: NetName=GND Pin=J1-6
+Removed Pin From Net: NetName=+9V Pin=U6-5
+Removed Pin From Net: NetName=+9V Pin=U6-8
+Added Component: Designator=L2(DO1608C)
+Added Component: Designator=L3(DO1608C)
+Added Pin To Net: NetName=GND Pin=J1-4
+Added Pin To Net: NetName=+9V Pin=L2-1
+Added Pin To Net: NetName=+9V Pin=L3-1
+Added Pin To Net: NetName=NetJ1_5 Pin=J1-5
+Added Pin To Net: NetName=NetJ1_5 Pin=L2-2
+Added Pin To Net: NetName=NetJ1_5 Pin=U6-8
+Added Net: Name=NetJ1_5
+Added Pin To Net: NetName=NetJ1_6 Pin=J1-6
+Added Pin To Net: NetName=NetJ1_6 Pin=L3-2
+Added Pin To Net: NetName=NetJ1_6 Pin=U6-5
+Added Net: Name=NetJ1_6
