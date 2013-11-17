@@ -1,0 +1,130 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+-include ../../makefile.local
+
+# Add inputs and outputs from these tool invocations to the build variables 
+C_SRCS_QUOTED += \
+"C:/Program Files (x86)/Freescale/Freescale USB Stack v3.1.1/Source/Device/app/common/kinetis/RealTimerCounter_kinetis.c" \
+"C:/Program Files (x86)/Freescale/Freescale USB Stack v3.1.1/Source/Device/app/common/main_kinetis.c" \
+"C:/Program Files (x86)/Freescale/Freescale USB Stack v3.1.1/Source/Device/app/cdc/usb_descriptor.c" \
+"C:/Program Files (x86)/Freescale/Freescale USB Stack v3.1.1/Source/Device/app/common/kinetis/vectors.c" \
+"C:/Program Files (x86)/Freescale/Freescale USB Stack v3.1.1/Source/Device/app/cdc/virtual_com.c" \
+"C:/Program Files (x86)/Freescale/Freescale USB Stack v3.1.1/Source/Device/app/common/kinetis/wdt_kinetis.c" \
+
+C_SRCS += \
+C:/Program\ Files\ (x86)/Freescale/Freescale\ USB\ Stack\ v3.1.1/Source/Device/app/common/kinetis/RealTimerCounter_kinetis.c \
+C:/Program\ Files\ (x86)/Freescale/Freescale\ USB\ Stack\ v3.1.1/Source/Device/app/common/main_kinetis.c \
+C:/Program\ Files\ (x86)/Freescale/Freescale\ USB\ Stack\ v3.1.1/Source/Device/app/cdc/usb_descriptor.c \
+C:/Program\ Files\ (x86)/Freescale/Freescale\ USB\ Stack\ v3.1.1/Source/Device/app/common/kinetis/vectors.c \
+C:/Program\ Files\ (x86)/Freescale/Freescale\ USB\ Stack\ v3.1.1/Source/Device/app/cdc/virtual_com.c \
+C:/Program\ Files\ (x86)/Freescale/Freescale\ USB\ Stack\ v3.1.1/Source/Device/app/common/kinetis/wdt_kinetis.c \
+
+OBJS += \
+./Sources/app/RealTimerCounter_kinetis.obj \
+./Sources/app/main_kinetis.obj \
+./Sources/app/usb_descriptor.obj \
+./Sources/app/vectors.obj \
+./Sources/app/virtual_com.obj \
+./Sources/app/wdt_kinetis.obj \
+
+C_DEPS += \
+./Sources/app/RealTimerCounter_kinetis.d \
+./Sources/app/main_kinetis.d \
+./Sources/app/usb_descriptor.d \
+./Sources/app/vectors.d \
+./Sources/app/virtual_com.d \
+./Sources/app/wdt_kinetis.d \
+
+OBJS_QUOTED += \
+"./Sources/app/RealTimerCounter_kinetis.obj" \
+"./Sources/app/main_kinetis.obj" \
+"./Sources/app/usb_descriptor.obj" \
+"./Sources/app/vectors.obj" \
+"./Sources/app/virtual_com.obj" \
+"./Sources/app/wdt_kinetis.obj" \
+
+OBJS_OS_FORMAT += \
+./Sources/app/RealTimerCounter_kinetis.obj \
+./Sources/app/main_kinetis.obj \
+./Sources/app/usb_descriptor.obj \
+./Sources/app/vectors.obj \
+./Sources/app/virtual_com.obj \
+./Sources/app/wdt_kinetis.obj \
+
+
+# Each subdirectory must supply rules for building sources it contributes
+Sources/app/RealTimerCounter_kinetis.obj: C:/Program\ Files\ (x86)/Freescale/Freescale\ USB\ Stack\ v3.1.1/Source/Device/app/common/kinetis/RealTimerCounter_kinetis.c
+	@echo 'Building file: $<'
+	@echo 'Invoking: ARM Compiler'
+	"$(ARM_ToolsDirEnv)/mwccarm" -gccinc @@"Sources/app/RealTimerCounter_kinetis.args" -o "Sources/app/RealTimerCounter_kinetis.obj" -c "$<" -MD -gccdep
+	@echo 'Finished building: $<'
+	@echo ' '
+
+Sources/app/RealTimerCounter_kinetis.d: C:/Program\ Files\ (x86)/Freescale/Freescale\ USB\ Stack\ v3.1.1/Source/Device/app/common/kinetis/RealTimerCounter_kinetis.c
+	@echo 'Regenerating dependency file: $@'
+	
+	@echo ' '
+
+Sources/app/main_kinetis.obj: C:/Program\ Files\ (x86)/Freescale/Freescale\ USB\ Stack\ v3.1.1/Source/Device/app/common/main_kinetis.c
+	@echo 'Building file: $<'
+	@echo 'Invoking: ARM Compiler'
+	"$(ARM_ToolsDirEnv)/mwccarm" -gccinc @@"Sources/app/main_kinetis.args" -o "Sources/app/main_kinetis.obj" -c "$<" -MD -gccdep
+	@echo 'Finished building: $<'
+	@echo ' '
+
+Sources/app/main_kinetis.d: C:/Program\ Files\ (x86)/Freescale/Freescale\ USB\ Stack\ v3.1.1/Source/Device/app/common/main_kinetis.c
+	@echo 'Regenerating dependency file: $@'
+	
+	@echo ' '
+
+Sources/app/usb_descriptor.obj: C:/Program\ Files\ (x86)/Freescale/Freescale\ USB\ Stack\ v3.1.1/Source/Device/app/cdc/usb_descriptor.c
+	@echo 'Building file: $<'
+	@echo 'Invoking: ARM Compiler'
+	"$(ARM_ToolsDirEnv)/mwccarm" -gccinc @@"Sources/app/usb_descriptor.args" -o "Sources/app/usb_descriptor.obj" -c "$<" -MD -gccdep
+	@echo 'Finished building: $<'
+	@echo ' '
+
+Sources/app/usb_descriptor.d: C:/Program\ Files\ (x86)/Freescale/Freescale\ USB\ Stack\ v3.1.1/Source/Device/app/cdc/usb_descriptor.c
+	@echo 'Regenerating dependency file: $@'
+	
+	@echo ' '
+
+Sources/app/vectors.obj: C:/Program\ Files\ (x86)/Freescale/Freescale\ USB\ Stack\ v3.1.1/Source/Device/app/common/kinetis/vectors.c
+	@echo 'Building file: $<'
+	@echo 'Invoking: ARM Compiler'
+	"$(ARM_ToolsDirEnv)/mwccarm" -gccinc @@"Sources/app/vectors.args" -o "Sources/app/vectors.obj" -c "$<" -MD -gccdep
+	@echo 'Finished building: $<'
+	@echo ' '
+
+Sources/app/vectors.d: C:/Program\ Files\ (x86)/Freescale/Freescale\ USB\ Stack\ v3.1.1/Source/Device/app/common/kinetis/vectors.c
+	@echo 'Regenerating dependency file: $@'
+	
+	@echo ' '
+
+Sources/app/virtual_com.obj: C:/Program\ Files\ (x86)/Freescale/Freescale\ USB\ Stack\ v3.1.1/Source/Device/app/cdc/virtual_com.c
+	@echo 'Building file: $<'
+	@echo 'Invoking: ARM Compiler'
+	"$(ARM_ToolsDirEnv)/mwccarm" -gccinc @@"Sources/app/virtual_com.args" -o "Sources/app/virtual_com.obj" -c "$<" -MD -gccdep
+	@echo 'Finished building: $<'
+	@echo ' '
+
+Sources/app/virtual_com.d: C:/Program\ Files\ (x86)/Freescale/Freescale\ USB\ Stack\ v3.1.1/Source/Device/app/cdc/virtual_com.c
+	@echo 'Regenerating dependency file: $@'
+	
+	@echo ' '
+
+Sources/app/wdt_kinetis.obj: C:/Program\ Files\ (x86)/Freescale/Freescale\ USB\ Stack\ v3.1.1/Source/Device/app/common/kinetis/wdt_kinetis.c
+	@echo 'Building file: $<'
+	@echo 'Invoking: ARM Compiler'
+	"$(ARM_ToolsDirEnv)/mwccarm" -gccinc @@"Sources/app/wdt_kinetis.args" -o "Sources/app/wdt_kinetis.obj" -c "$<" -MD -gccdep
+	@echo 'Finished building: $<'
+	@echo ' '
+
+Sources/app/wdt_kinetis.d: C:/Program\ Files\ (x86)/Freescale/Freescale\ USB\ Stack\ v3.1.1/Source/Device/app/common/kinetis/wdt_kinetis.c
+	@echo 'Regenerating dependency file: $@'
+	
+	@echo ' '
+
+

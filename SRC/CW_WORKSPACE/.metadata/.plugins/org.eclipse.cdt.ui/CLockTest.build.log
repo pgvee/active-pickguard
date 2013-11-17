@@ -1,0 +1,16 @@
+
+**** Build of configuration MK40DX256Z_INTERNAL_RAM for project CLockTest ****
+
+C:\Freescale\CW10\gnu\bin\make all 
+'Building target: CLockTest.afx'
+'Invoking: ARM Linker'
+"C:/Freescale/CW10/MCU/ARM_Tools/Command_Line_Tools/mwldarm" @@"CLockTest.args" -o "CLockTest.afx"  
+C:/Freescale/CW10/MCU/ARM_Tools/Command_Line_Tools/mwldarm|Linker|Error
+(C:\eli\PERSONAL\ACTIVE_PICKGUARD\SRC\CW_WORKSPACE\CLockTest\Sources\main.c|18|0|0|0|0)
+=Referenced from "main" in main.obj
+>Undefined : "MCU_init"
+C:/Freescale/CW10/MCU/ARM_Tools/Command_Line_Tools/mwldarm|Linker|Error
+>Link failed. 
+
+Errors caused tool to abort.
+C:\Freescale\CW10\gnu\bin\make: *** [CLockTest.afx] Error 1

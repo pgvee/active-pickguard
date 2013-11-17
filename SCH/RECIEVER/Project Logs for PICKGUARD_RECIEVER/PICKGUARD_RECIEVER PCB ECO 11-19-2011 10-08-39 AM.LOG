@@ -1,0 +1,8 @@
+Added Component: Designator=J1(NE8FAH)
+Added Pin To Net: NetName=ANALOG_OUT+ Pin=J1-1
+Added Pin To Net: NetName=ANALOG_OUT- Pin=J1-2
+Added Pin To Net: NetName=GND Pin=J1-4
+Added Pin To Net: NetName=+9V Pin=J1-5
+Added Pin To Net: NetName=AES- Pin=J1-7
+Added Pin To Net: NetName=AES+ Pin=J1-8
+Added Pin To Net: NetName=GND Pin=J1-G

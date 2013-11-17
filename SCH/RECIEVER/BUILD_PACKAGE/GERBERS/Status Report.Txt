@@ -1,0 +1,19 @@
+Output: GERBERS
+Type  : Gerber
+From  : Variant [[No Variations]] of PCB Document [PICKGUARD_RECIEVER.PcbDoc]
+   Generated File[PICKGUARD_RECIEVER.GTL]
+   Generated File[PICKGUARD_RECIEVER.GBL]
+   Generated File[PICKGUARD_RECIEVER.GTO]
+   Generated File[PICKGUARD_RECIEVER.GTS]
+   Generated File[PICKGUARD_RECIEVER.GBS]
+   Generated File[PICKGUARD_RECIEVER.GBO]
+   Generated File[PICKGUARD_RECIEVER.GM5]
+   Generated File[PICKGUARD_RECIEVER.RUL]
+   Generated File[PICKGUARD_RECIEVER.EXTREP]
+   Generated File[PICKGUARD_RECIEVER.REP]
+
+
+Files Generated   : 10
+Documents Printed : 0
+
+Finished Output Generation At 8:56:16 PM On 8/26/2011

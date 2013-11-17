@@ -1,0 +1,28 @@
+Removed Pin From Net: NetName=EMPH Pin=U5-15
+Removed Pin From Net: NetName=SFSEL1 Pin=U5-16
+Removed Pin From Net: NetName=PHASE_RATE Pin=U5-17
+Removed Pin From Net: NetName=SFSEL0 Pin=U5-18
+Removed Pin From Net: NetName=RMCK Pin=U5-19
+Removed Pin From Net: NetName=NetR8_2 Pin=U5-20
+Removed Pin From Net: NetName=LRCK Pin=U5-21
+Removed Pin From Net: NetName=SCLK Pin=U5-22
+Removed Pin From Net: NetName=SDIN Pin=U5-23
+Removed Pin From Net: NetName=MCLK Pin=U5-25
+Removed Pin From Net: NetName=+3.3V_D Pin=U5-26
+Removed Pin From Net: NetName=GND Pin=U5-27
+Removed Pin From Net: NetName=+3.3V_D Pin=U5-28
+Change Component Comment : Designator=U5 Old Comment=CS8416-CSZ New Comment=
+Change Component Comment : Designator=U8 Old Comment=LM2937IMP-3.3/NOPB New Comment=Value
+Added Pin To Net: NetName=SFSEL1 Pin=U5-15
+Added Pin To Net: NetName=EMPH Pin=U5-16
+Added Pin To Net: NetName=NetR8_2 Pin=U5-17
+Added Pin To Net: NetName=RMCK Pin=U5-18
+Added Pin To Net: NetName=SFSEL0 Pin=U5-19
+Added Pin To Net: NetName=PHASE_RATE Pin=U5-20
+Added Pin To Net: NetName=+3.3V_D Pin=U5-21
+Added Pin To Net: NetName=GND Pin=U5-22
+Added Pin To Net: NetName=+3.3V_D Pin=U5-23
+Added Pin To Net: NetName=MCLK Pin=U5-24
+Added Pin To Net: NetName=SDIN Pin=U5-26
+Added Pin To Net: NetName=SCLK Pin=U5-27
+Added Pin To Net: NetName=LRCK Pin=U5-28

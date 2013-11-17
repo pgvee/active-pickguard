@@ -1,0 +1,28 @@
+Added Component: Designator=C17(C0805)
+Added Component: Designator=C25(C0805)
+Added Component: Designator=D3(SML-LXR44YC)
+Added Component: Designator=R30(R0603)
+Added Component: Designator=U11(SOT95P245X145-5L)
+Added Pin To Net: NetName=+3.3V_D Pin=C17-2
+Added Pin To Net: NetName=GND Pin=D1-C
+Added Pin To Net: NetName=+3.3V_D Pin=U11-5
+Change Net Name : Old Net Name=NetR6_1 New Net Name=SDIN
+Change Net Name : Old Net Name=NetU4_2 New Net Name=SCLK
+Change Net Name : Old Net Name=NetU4_3 New Net Name=LRCK
+Added Pin To Net: NetName=DGND Pin=C17-1
+Added Pin To Net: NetName=DGND Pin=C25-1
+Added Pin To Net: NetName=DGND Pin=D3-C
+Added Pin To Net: NetName=DGND Pin=U11-3
+Added Net: Name=DGND
+Added Pin To Net: NetName=MCLK Pin=U4-4
+Added Pin To Net: NetName=MCLK Pin=U5-25
+Added Pin To Net: NetName=MCLK Pin=U11-1
+Added Pin To Net: NetName=MCLK Pin=U11-2
+Added Net: Name=MCLK
+Added Pin To Net: NetName=NetC25_2 Pin=C25-2
+Added Pin To Net: NetName=NetC25_2 Pin=D3-A
+Added Pin To Net: NetName=NetC25_2 Pin=R30-2
+Added Net: Name=NetC25_2
+Added Pin To Net: NetName=NetR30_1 Pin=R30-1
+Added Pin To Net: NetName=NetR30_1 Pin=U11-4
+Added Net: Name=NetR30_1

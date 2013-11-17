@@ -1,0 +1,16 @@
+
+**** Build of configuration PK40X256_INTERNAL_FLASH for project PICKGUARD ****
+
+C:\Freescale\CW10\gnu\bin\make all 
+'Regenerating dependency file: Sources/AudioProcess.d'
+' '
+'Building file: ../Sources/AudioProcess.c'
+'Invoking: ARM Compiler'
+"C:/Freescale/CW10/MCU/ARM_Tools/Command_Line_Tools/mwccarm" -gccinc @@"Sources/AudioProcess.args" -o "Sources/AudioProcess.obj" -c "../Sources/AudioProcess.c" -MD -gccdep
+'Finished building: ../Sources/AudioProcess.c'
+' '
+'Building target: PICKGUARD.afx'
+'Invoking: ARM Linker'
+"C:/Freescale/CW10/MCU/ARM_Tools/Command_Line_Tools/mwldarm" @@"PICKGUARD.args" -o "PICKGUARD.afx"  
+'Finished building target: PICKGUARD.afx'
+' '

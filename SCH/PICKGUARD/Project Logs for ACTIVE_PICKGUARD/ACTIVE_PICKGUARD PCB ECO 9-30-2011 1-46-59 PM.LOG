@@ -1,0 +1,36 @@
+Change Component DesignItemId : Designator=R133 Old DesignItemId=ERJ-3EKF4703V New DesignItemId=ERJ-3EKF1003V
+Change Component DesignItemId : Designator=R134 Old DesignItemId=ERJ-3EKF4703V New DesignItemId=ERJ-3EKF1003V
+Change Component DesignItemId : Designator=R135 Old DesignItemId=ERJ-3EKF4703V New DesignItemId=ERJ-3EKF1003V
+Change Component DesignItemId : Designator=R136 Old DesignItemId=ERJ-3EKF4703V New DesignItemId=ERJ-3EKF1003V
+Change Component DesignItemId : Designator=R137 Old DesignItemId=ERJ-3EKF4703V New DesignItemId=ERJ-3EKF1003V
+Change Component DesignItemId : Designator=R138 Old DesignItemId=ERJ-3EKF4703V New DesignItemId=ERJ-3EKF1003V
+Change Component DesignItemId : Designator=R139 Old DesignItemId=ERJ-3EKF4703V New DesignItemId=ERJ-3EKF1003V
+Change Component DesignItemId : Designator=R140 Old DesignItemId=ERJ-3EKF4703V New DesignItemId=ERJ-3EKF1003V
+Change Component DesignItemId : Designator=R141 Old DesignItemId=ERJ-3EKF4703V New DesignItemId=ERJ-3EKF1003V
+Change Component DesignItemId : Designator=R142 Old DesignItemId=ERJ-3EKF4703V New DesignItemId=ERJ-3EKF1003V
+Change Component DesignItemId : Designator=R143 Old DesignItemId=ERJ-3EKF4703V New DesignItemId=ERJ-3EKF1003V
+Change Component DesignItemId : Designator=R144 Old DesignItemId=ERJ-3EKF4703V New DesignItemId=ERJ-3EKF1003V
+Change Component Comment : Designator=R133 Old Comment=470k New Comment=100k
+Change Component Comment : Designator=R134 Old Comment=470k New Comment=100k
+Change Component Comment : Designator=R135 Old Comment=470k New Comment=100k
+Change Component Comment : Designator=R136 Old Comment=470k New Comment=100k
+Change Component Comment : Designator=R137 Old Comment=470k New Comment=100k
+Change Component Comment : Designator=R138 Old Comment=470k New Comment=100k
+Change Component Comment : Designator=R139 Old Comment=470k New Comment=100k
+Change Component Comment : Designator=R140 Old Comment=470k New Comment=100k
+Change Component Comment : Designator=R141 Old Comment=470k New Comment=100k
+Change Component Comment : Designator=R142 Old Comment=470k New Comment=100k
+Change Component Comment : Designator=R143 Old Comment=470k New Comment=100k
+Change Component Comment : Designator=R144 Old Comment=470k New Comment=100k
+Change Component Description : Designator=R133 Old Description=RES 470K OHM 1/10W 1% 0603 SMD New Description=RES 100K OHM 1/10W 1% 0603 SMD
+Change Component Description : Designator=R134 Old Description=RES 470K OHM 1/10W 1% 0603 SMD New Description=RES 100K OHM 1/10W 1% 0603 SMD
+Change Component Description : Designator=R135 Old Description=RES 470K OHM 1/10W 1% 0603 SMD New Description=RES 100K OHM 1/10W 1% 0603 SMD
+Change Component Description : Designator=R136 Old Description=RES 470K OHM 1/10W 1% 0603 SMD New Description=RES 100K OHM 1/10W 1% 0603 SMD
+Change Component Description : Designator=R137 Old Description=RES 470K OHM 1/10W 1% 0603 SMD New Description=RES 100K OHM 1/10W 1% 0603 SMD
+Change Component Description : Designator=R138 Old Description=RES 470K OHM 1/10W 1% 0603 SMD New Description=RES 100K OHM 1/10W 1% 0603 SMD
+Change Component Description : Designator=R139 Old Description=RES 470K OHM 1/10W 1% 0603 SMD New Description=RES 100K OHM 1/10W 1% 0603 SMD
+Change Component Description : Designator=R140 Old Description=RES 470K OHM 1/10W 1% 0603 SMD New Description=RES 100K OHM 1/10W 1% 0603 SMD
+Change Component Description : Designator=R141 Old Description=RES 470K OHM 1/10W 1% 0603 SMD New Description=RES 100K OHM 1/10W 1% 0603 SMD
+Change Component Description : Designator=R142 Old Description=RES 470K OHM 1/10W 1% 0603 SMD New Description=RES 100K OHM 1/10W 1% 0603 SMD
+Change Component Description : Designator=R143 Old Description=RES 470K OHM 1/10W 1% 0603 SMD New Description=RES 100K OHM 1/10W 1% 0603 SMD
+Change Component Description : Designator=R144 Old Description=RES 470K OHM 1/10W 1% 0603 SMD New Description=RES 100K OHM 1/10W 1% 0603 SMD

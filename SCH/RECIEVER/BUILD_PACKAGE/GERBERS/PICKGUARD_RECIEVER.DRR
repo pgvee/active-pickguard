@@ -1,0 +1,22 @@
+---------------------------------------------------------------------------
+NCDrill File Report For: PICKGUARD_RECIEVER.PcbDoc   8/26/2011  8:56:15 PM
+---------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : PICKGUARD_RECIEVER.TXT
+EIA File   : PICKGUARD_RECIEVER.DRL
+
+Tool         Hole Size           Hole Type     Hole Count Plated       Tool Travel
+---------------------------------------------------------------------------
+T1        12mil (0.3048mm)         Round          90               16.75 Inch (425.38 mm)
+T2        35mil (0.889mm)          Round          8                0.71 Inch (18.08 mm)
+T3        59mil (1.4986mm)         Round          6                1.45 Inch (36.80 mm)
+T4        65mil (1.651mm)          Round          2                0.61 Inch (15.60 mm)
+T5        83mil (2.1082mm)         Round          1                0.00 Inch (0.00 mm)
+T6        63mil (1.6002mm)         Round          1         NPTH   0.00 Inch (0.00 mm)
+T7        71mil (1.8034mm)         Round          1         NPTH   0.00 Inch (0.00 mm)
+T8        128mil (3.2512mm)        Round          2         NPTH   0.45 Inch (11.43 mm)
+---------------------------------------------------------------------------
+Totals                                            111              19.97 Inch (507.29 mm)
+
+Total Processing Time (hh:mm:ss) : 00:00:00

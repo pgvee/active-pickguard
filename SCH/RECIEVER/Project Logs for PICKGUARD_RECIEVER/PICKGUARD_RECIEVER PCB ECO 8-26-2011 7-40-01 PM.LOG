@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=+3.3V_D Pin=R17-1
+Removed Pin From Net: NetName=NetD1_A Pin=R17-2
+Added Pin To Net: NetName=NetD1_A Pin=R17-1
+Added Pin To Net: NetName=+3.3V_D Pin=R17-2

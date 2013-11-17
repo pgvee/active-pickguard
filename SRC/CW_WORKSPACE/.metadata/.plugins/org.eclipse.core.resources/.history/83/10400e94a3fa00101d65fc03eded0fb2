@@ -1,0 +1,76 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+-include ../../makefile.local
+
+# Add inputs and outputs from these tool invocations to the build variables 
+C_SRCS_QUOTED += \
+"C:/Program Files (x86)/Freescale/Freescale USB Stack with PHDC v3.1/Source/Device/source/class/usb_cdc.c" \
+"C:/Program Files (x86)/Freescale/Freescale USB Stack with PHDC v3.1/Source/Device/source/class/usb_cdc_pstn.c" \
+"C:/Program Files (x86)/Freescale/Freescale USB Stack with PHDC v3.1/Source/Device/source/common/usb_class.c" \
+
+C_SRCS += \
+C:/Program\ Files\ (x86)/Freescale/Freescale\ USB\ Stack\ with\ PHDC\ v3.1/Source/Device/source/class/usb_cdc.c \
+C:/Program\ Files\ (x86)/Freescale/Freescale\ USB\ Stack\ with\ PHDC\ v3.1/Source/Device/source/class/usb_cdc_pstn.c \
+C:/Program\ Files\ (x86)/Freescale/Freescale\ USB\ Stack\ with\ PHDC\ v3.1/Source/Device/source/common/usb_class.c \
+
+OBJS += \
+./Sources/class/usb_cdc.obj \
+./Sources/class/usb_cdc_pstn.obj \
+./Sources/class/usb_class.obj \
+
+C_DEPS += \
+./Sources/class/usb_cdc.d \
+./Sources/class/usb_cdc_pstn.d \
+./Sources/class/usb_class.d \
+
+OBJS_QUOTED += \
+"./Sources/class/usb_cdc.obj" \
+"./Sources/class/usb_cdc_pstn.obj" \
+"./Sources/class/usb_class.obj" \
+
+OBJS_OS_FORMAT += \
+./Sources/class/usb_cdc.obj \
+./Sources/class/usb_cdc_pstn.obj \
+./Sources/class/usb_class.obj \
+
+
+# Each subdirectory must supply rules for building sources it contributes
+Sources/class/usb_cdc.obj: C:/Program\ Files\ (x86)/Freescale/Freescale\ USB\ Stack\ with\ PHDC\ v3.1/Source/Device/source/class/usb_cdc.c
+	@echo 'Building file: $<'
+	@echo 'Invoking: ARM Compiler'
+	"$(ARM_ToolsDirEnv)/mwccarm" -gccinc @@"Sources/class/usb_cdc.args" -o "Sources/class/usb_cdc.obj" -c "$<" -MD -gccdep
+	@echo 'Finished building: $<'
+	@echo ' '
+
+Sources/class/usb_cdc.d: C:/Program\ Files\ (x86)/Freescale/Freescale\ USB\ Stack\ with\ PHDC\ v3.1/Source/Device/source/class/usb_cdc.c
+	@echo 'Regenerating dependency file: $@'
+	
+	@echo ' '
+
+Sources/class/usb_cdc_pstn.obj: C:/Program\ Files\ (x86)/Freescale/Freescale\ USB\ Stack\ with\ PHDC\ v3.1/Source/Device/source/class/usb_cdc_pstn.c
+	@echo 'Building file: $<'
+	@echo 'Invoking: ARM Compiler'
+	"$(ARM_ToolsDirEnv)/mwccarm" -gccinc @@"Sources/class/usb_cdc_pstn.args" -o "Sources/class/usb_cdc_pstn.obj" -c "$<" -MD -gccdep
+	@echo 'Finished building: $<'
+	@echo ' '
+
+Sources/class/usb_cdc_pstn.d: C:/Program\ Files\ (x86)/Freescale/Freescale\ USB\ Stack\ with\ PHDC\ v3.1/Source/Device/source/class/usb_cdc_pstn.c
+	@echo 'Regenerating dependency file: $@'
+	
+	@echo ' '
+
+Sources/class/usb_class.obj: C:/Program\ Files\ (x86)/Freescale/Freescale\ USB\ Stack\ with\ PHDC\ v3.1/Source/Device/source/common/usb_class.c
+	@echo 'Building file: $<'
+	@echo 'Invoking: ARM Compiler'
+	"$(ARM_ToolsDirEnv)/mwccarm" -gccinc @@"Sources/class/usb_class.args" -o "Sources/class/usb_class.obj" -c "$<" -MD -gccdep
+	@echo 'Finished building: $<'
+	@echo ' '
+
+Sources/class/usb_class.d: C:/Program\ Files\ (x86)/Freescale/Freescale\ USB\ Stack\ with\ PHDC\ v3.1/Source/Device/source/common/usb_class.c
+	@echo 'Regenerating dependency file: $@'
+	
+	@echo ' '
+
+

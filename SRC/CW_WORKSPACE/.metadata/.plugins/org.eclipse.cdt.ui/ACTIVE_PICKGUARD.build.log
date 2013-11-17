@@ -1,0 +1,232 @@
+
+**** Build of configuration PK40X256_INTERNAL_RAM for project ACTIVE_PICKGUARD ****
+
+C:\Freescale\CW10\gnu\bin\make all 
+'Regenerating dependency file: SRC/SYSTEM_SUPPORT/Terminal.d'
+' '
+'Regenerating dependency file: SRC/CPU/TOUCH_SENSE_LIBRARY/TSS_SystemSetupData.d'
+' '
+'Regenerating dependency file: SRC/CPU/TOUCH_SENSE_LIBRARY/TSS_SensorTSI.d'
+' '
+'Regenerating dependency file: SRC/CPU/TOUCH_SENSE_LIBRARY/TSS_SensorTIC.d'
+' '
+'Regenerating dependency file: SRC/CPU/TOUCH_SENSE_LIBRARY/TSS_SensorPTI.d'
+' '
+'Regenerating dependency file: SRC/CPU/TOUCH_SENSE_LIBRARY/TSS_SensorKBI.d'
+' '
+'Regenerating dependency file: SRC/CPU/TOUCH_SENSE_LIBRARY/TSS_SensorGPIO.d'
+' '
+'Regenerating dependency file: SRC/CPU/TOUCH_SENSE_LIBRARY/TSS_SensorCTS.d'
+' '
+'Regenerating dependency file: SRC/CPU/TOUCH_SENSE_LIBRARY/TSS_Sensor.d'
+' '
+'Regenerating dependency file: SRC/CPU/TOUCH_SENSE_LIBRARY/TSS_Freemaster.d'
+' '
+'Regenerating dependency file: SRC/CPU/TOUCH_SENSE_LIBRARY/PickGuardTSS.d'
+' '
+'Regenerating dependency file: SRC/CPU/kinetis_sysinit.d'
+' '
+'Regenerating dependency file: SRC/CPU/arm_cm4.d'
+' '
+'Regenerating dependency file: SRC/CPU/adc16.d'
+' '
+'Regenerating dependency file: SRC/CPU/SysTick.d'
+' '
+'Regenerating dependency file: SRC/CPU/Serial.d'
+' '
+'Regenerating dependency file: SRC/CPU/I2S.d'
+' '
+'Regenerating dependency file: SRC/CPU/FlexTimer.d'
+' '
+'Regenerating dependency file: SRC/CPU/DigitalPot.d'
+' '
+'Regenerating dependency file: SRC/CPU/DataTypes.d'
+' '
+'Regenerating dependency file: SRC/CPU/DAC12.d'
+' '
+'Regenerating dependency file: SRC/CPU/Clock.d'
+' '
+'Regenerating dependency file: SRC/CPU/BoardSupport.d'
+' '
+'Regenerating dependency file: SRC/EFFECTS/PickupTranslator.d'
+' '
+'Regenerating dependency file: SRC/EFFECTS/Overdrive.d'
+' '
+'Regenerating dependency file: SRC/EFFECTS/Filters.d'
+' '
+'Regenerating dependency file: SRC/EFFECTS/Effects.d'
+' '
+'Regenerating dependency file: SRC/SYSTEM_SUPPORT/System.d'
+' '
+'Regenerating dependency file: SRC/SYSTEM_SUPPORT/MathTables.d'
+' '
+'Regenerating dependency file: SRC/main.d'
+' '
+'Regenerating dependency file: SRC/AudioProcess.d'
+' '
+'Building file: ../SRC/AudioProcess.c'
+'Invoking: ARM Compiler'
+"C:/Freescale/CW10/MCU/ARM_Tools/Command_Line_Tools/mwccarm" -gccinc @@"SRC/AudioProcess.args" -o "SRC/AudioProcess.obj" -c "../SRC/AudioProcess.c" -MD -gccdep
+C:/Freescale/CW10/MCU/ARM_Tools/Command_Line_Tools/mwccarm|Compiler|Error
+(C:\eli\PERSONAL\ACTIVE_PICKGUARD\SRC\KINETIS\ACTIVE_PICKGUARD\SRC\AudioProcess.c|37|9|10|1455|10)
+=#include "System.h"  
+>the file 'System.h' cannot be opened
+C:/Freescale/CW10/MCU/ARM_Tools/Command_Line_Tools/mwccarm|Compiler|Error
+(C:\eli\PERSONAL\ACTIVE_PICKGUARD\SRC\KINETIS\ACTIVE_PICKGUARD\SRC\AudioProcess.c|50|12|1|2043|1)
+=static BYTE q;  
+>';' expected
+C:/Freescale/CW10/MCU/ARM_Tools/Command_Line_Tools/mwccarm|Compiler|Error
+(C:\eli\PERSONAL\ACTIVE_PICKGUARD\SRC\KINETIS\ACTIVE_PICKGUARD\SRC\AudioProcess.c|51|12|5|2059|5)
+=static BYTE Phase = 0;  
+>';' expected
+C:/Freescale/CW10/MCU/ARM_Tools/Command_Line_Tools/mwccarm|Compiler|Error
+(C:\eli\PERSONAL\ACTIVE_PICKGUARD\SRC\KINETIS\ACTIVE_PICKGUARD\SRC\AudioProcess.c|52|15|18|2086|18)
+=static DWORD   QueuedDACSampleOut = 0;  
+>';' expected
+C:/Freescale/CW10/MCU/ARM_Tools/Command_Line_Tools/mwccarm|Compiler|Error
+(C:\eli\PERSONAL\ACTIVE_PICKGUARD\SRC\KINETIS\ACTIVE_PICKGUARD\SRC\AudioProcess.c|53|21|18|2132|18)
+=static SIGNED_DWORD  QueuedI2CSampleOut = 0;  
+>';' expected
+C:/Freescale/CW10/MCU/ARM_Tools/Command_Line_Tools/mwccarm|Compiler|Error
+(C:\eli\PERSONAL\ACTIVE_PICKGUARD\SRC\KINETIS\ACTIVE_PICKGUARD\SRC\AudioProcess.c|54|15|9|2172|9)
+=static q31_t   SampleOut = 0;  
+>';' expected
+C:/Freescale/CW10/MCU/ARM_Tools/Command_Line_Tools/mwccarm|Compiler|Error
+(C:\eli\PERSONAL\ACTIVE_PICKGUARD\SRC\KINETIS\ACTIVE_PICKGUARD\SRC\AudioProcess.c|55|16|8|2204|8)
+=static q31_t    SampleIn;  
+>';' expected
+C:/Freescale/CW10/MCU/ARM_Tools/Command_Line_Tools/mwccarm|Compiler|Error
+(C:\eli\PERSONAL\ACTIVE_PICKGUARD\SRC\KINETIS\ACTIVE_PICKGUARD\SRC\AudioProcess.c|56|15|11|2230|11)
+=static q31_t   SampleInBuf[16];  
+>';' expected
+C:/Freescale/CW10/MCU/ARM_Tools/Command_Line_Tools/mwccarm|Compiler|Error
+(C:\eli\PERSONAL\ACTIVE_PICKGUARD\SRC\KINETIS\ACTIVE_PICKGUARD\SRC\AudioProcess.c|57|15|11|2263|11)
+=static BYTE    SampleInPtr = 0;  
+>';' expected
+C:/Freescale/CW10/MCU/ARM_Tools/Command_Line_Tools/mwccarm|Compiler|Error
+(C:\eli\PERSONAL\ACTIVE_PICKGUARD\SRC\KINETIS\ACTIVE_PICKGUARD\SRC\AudioProcess.c|58|16|3|2297|3)
+=static q31_t    Sum;  
+>';' expected
+C:/Freescale/CW10/MCU/ARM_Tools/Command_Line_Tools/mwccarm|Compiler|Error
+(C:\eli\PERSONAL\ACTIVE_PICKGUARD\SRC\KINETIS\ACTIVE_PICKGUARD\SRC\AudioProcess.c|71|0|5|3096|5)
+=DWORD TranslateForDAC(q31_t In)  
+>undefined identifier 'DWORD'
+C:/Freescale/CW10/MCU/ARM_Tools/Command_Line_Tools/mwccarm|Compiler|Error
+(C:\eli\PERSONAL\ACTIVE_PICKGUARD\SRC\KINETIS\ACTIVE_PICKGUARD\SRC\AudioProcess.c|72|0|1|3129|1)
+={  
+>declaration syntax error
+C:/Freescale/CW10/MCU/ARM_Tools/Command_Line_Tools/mwccarm|Compiler|Error
+(C:\eli\PERSONAL\ACTIVE_PICKGUARD\SRC\KINETIS\ACTIVE_PICKGUARD\SRC\AudioProcess.c|84|0|5|3284|5)
+=DWORD TranslateForI2S(q31_t In)  
+>undefined identifier 'DWORD'
+C:/Freescale/CW10/MCU/ARM_Tools/Command_Line_Tools/mwccarm|Compiler|Error
+(C:\eli\PERSONAL\ACTIVE_PICKGUARD\SRC\KINETIS\ACTIVE_PICKGUARD\SRC\AudioProcess.c|85|0|1|3317|1)
+={  
+>declaration syntax error
+C:/Freescale/CW10/MCU/ARM_Tools/Command_Line_Tools/mwccarm|Compiler|Error
+(C:\eli\PERSONAL\ACTIVE_PICKGUARD\SRC\KINETIS\ACTIVE_PICKGUARD\SRC\AudioProcess.c|91|1|4|3373|4)
+= BYTE i;  
+>undefined identifier 'BYTE'
+C:/Freescale/CW10/MCU/ARM_Tools/Command_Line_Tools/mwccarm|Compiler|Error
+(C:\eli\PERSONAL\ACTIVE_PICKGUARD\SRC\KINETIS\ACTIVE_PICKGUARD\SRC\AudioProcess.c|94|4|5|3391|5)
+= if(Phase++&0x01)  
+>undefined identifier 'Phase'
+C:/Freescale/CW10/MCU/ARM_Tools/Command_Line_Tools/mwccarm|Compiler|Error
+(C:\eli\PERSONAL\ACTIVE_PICKGUARD\SRC\KINETIS\ACTIVE_PICKGUARD\SRC\AudioProcess.c|97|2|8|3454|8)
+=  I2S0_TX0 = 0xFFFFFFFF;  
+>undefined identifier 'I2S0_TX0'
+C:/Freescale/CW10/MCU/ARM_Tools/Command_Line_Tools/mwccarm|Compiler|Error
+(C:\eli\PERSONAL\ACTIVE_PICKGUARD\SRC\KINETIS\ACTIVE_PICKGUARD\SRC\AudioProcess.c|101|13|1|3495|10)
+=   (*(DWORD *)(0x400CC000)) = QueuedDACSampleOut;   
+>expression syntax error
+C:/Freescale/CW10/MCU/ARM_Tools/Command_Line_Tools/mwccarm|Compiler|Error
+(C:\eli\PERSONAL\ACTIVE_PICKGUARD\SRC\KINETIS\ACTIVE_PICKGUARD\SRC\AudioProcess.c|102|2|8|3532|8)
+=  I2S0_TX0 = QueuedI2CSampleOut;  
+>undefined identifier 'I2S0_TX0'
+C:/Freescale/CW10/MCU/ARM_Tools/Command_Line_Tools/mwccarm|Compiler|Error
+(C:\eli\PERSONAL\ACTIVE_PICKGUARD\SRC\KINETIS\ACTIVE_PICKGUARD\SRC\AudioProcess.c|104|2|8|3569|8)
+=  SampleIn = ((q31_t)(ADC0_RA));  
+>undefined identifier 'SampleIn'
+C:/Freescale/CW10/MCU/ARM_Tools/Command_Line_Tools/mwccarm|Compiler|Error
+(C:\eli\PERSONAL\ACTIVE_PICKGUARD\SRC\KINETIS\ACTIVE_PICKGUARD\SRC\AudioProcess.c|107|9|12|3682|12)
+=  switch(CurrentPatch)  
+>undefined identifier 'CurrentPatch'
+C:/Freescale/CW10/MCU/ARM_Tools/Command_Line_Tools/mwccarm|Compiler|Error
+(C:\eli\PERSONAL\ACTIVE_PICKGUARD\SRC\KINETIS\ACTIVE_PICKGUARD\SRC\AudioProcess.c|112|8|15|3740|15)
+=   case PATCH_SINE_TEST:  
+>undefined identifier 'PATCH_SINE_TEST'
+C:/Freescale/CW10/MCU/ARM_Tools/Command_Line_Tools/mwccarm|Compiler|Error
+(C:\eli\PERSONAL\ACTIVE_PICKGUARD\SRC\KINETIS\ACTIVE_PICKGUARD\SRC\AudioProcess.c|114|4|9|3768|9)
+=    SampleOut = ((q31_t)(Sine_15_0[q++]))<<8;  
+>undefined identifier 'SampleOut'
+C:/Freescale/CW10/MCU/ARM_Tools/Command_Line_Tools/mwccarm|Compiler|Error
+(C:\eli\PERSONAL\ACTIVE_PICKGUARD\SRC\KINETIS\ACTIVE_PICKGUARD\SRC\AudioProcess.c|118|8|18|3842|18)
+=   case PATCH_PASS_THROUGH:  
+>undefined identifier 'PATCH_PASS_THROUGH'
+C:/Freescale/CW10/MCU/ARM_Tools/Command_Line_Tools/mwccarm|Compiler|Error
+(C:\eli\PERSONAL\ACTIVE_PICKGUARD\SRC\KINETIS\ACTIVE_PICKGUARD\SRC\AudioProcess.c|120|4|9|3873|9)
+=    SampleOut = SampleIn;  
+>undefined identifier 'SampleOut'
+C:/Freescale/CW10/MCU/ARM_Tools/Command_Line_Tools/mwccarm|Compiler|Error
+(C:\eli\PERSONAL\ACTIVE_PICKGUARD\SRC\KINETIS\ACTIVE_PICKGUARD\SRC\AudioProcess.c|124|8|11|3928|11)
+=   case PATCH_ALPHA:  
+>undefined identifier 'PATCH_ALPHA'
+C:/Freescale/CW10/MCU/ARM_Tools/Command_Line_Tools/mwccarm|Compiler|Error
+(C:\eli\PERSONAL\ACTIVE_PICKGUARD\SRC\KINETIS\ACTIVE_PICKGUARD\SRC\AudioProcess.c|126|22|8|3970|8)
+=    PickupTranslator(&SampleIn,&SampleOut);  
+>undefined identifier 'SampleIn'
+C:/Freescale/CW10/MCU/ARM_Tools/Command_Line_Tools/mwccarm|Compiler|Error
+(C:\eli\PERSONAL\ACTIVE_PICKGUARD\SRC\KINETIS\ACTIVE_PICKGUARD\SRC\AudioProcess.c|130|8|10|4023|10)
+=   case PATCH_BETA:  
+>undefined identifier 'PATCH_BETA'
+C:/Freescale/CW10/MCU/ARM_Tools/Command_Line_Tools/mwccarm|Compiler|Error
+(C:\eli\PERSONAL\ACTIVE_PICKGUARD\SRC\KINETIS\ACTIVE_PICKGUARD\SRC\AudioProcess.c|132|12|9|4056|9)
+=    Octave(&SampleOut,&SampleOut);  
+>undefined identifier 'SampleOut'
+C:/Freescale/CW10/MCU/ARM_Tools/Command_Line_Tools/mwccarm|Compiler|Error
+(C:\eli\PERSONAL\ACTIVE_PICKGUARD\SRC\KINETIS\ACTIVE_PICKGUARD\SRC\AudioProcess.c|136|8|11|4111|11)
+=   case PATCH_GAMMA:  
+>undefined identifier 'PATCH_GAMMA'
+C:/Freescale/CW10/MCU/ARM_Tools/Command_Line_Tools/mwccarm|Compiler|Error
+(C:\eli\PERSONAL\ACTIVE_PICKGUARD\SRC\KINETIS\ACTIVE_PICKGUARD\SRC\AudioProcess.c|138|32|5|4162|5)
+=    arm_biquad_cascade_df1_q31(&MyIIR,&SampleIn,&SampleOut,1);  
+>undefined identifier 'MyIIR'
+C:/Freescale/CW10/MCU/ARM_Tools/Command_Line_Tools/mwccarm|Compiler|Error
+(C:\eli\PERSONAL\ACTIVE_PICKGUARD\SRC\KINETIS\ACTIVE_PICKGUARD\SRC\AudioProcess.c|142|8|11|4223|11)
+=   case PATCH_DELTA:  
+>undefined identifier 'PATCH_DELTA'
+C:/Freescale/CW10/MCU/ARM_Tools/Command_Line_Tools/mwccarm|Compiler|Error
+(C:\eli\PERSONAL\ACTIVE_PICKGUARD\SRC\KINETIS\ACTIVE_PICKGUARD\SRC\AudioProcess.c|144|22|8|4264|8)
+=    PickupTranslator(&SampleIn,&SampleOut);  
+>undefined identifier 'SampleIn'
+C:/Freescale/CW10/MCU/ARM_Tools/Command_Line_Tools/mwccarm|Compiler|Error
+(C:\eli\PERSONAL\ACTIVE_PICKGUARD\SRC\KINETIS\ACTIVE_PICKGUARD\SRC\AudioProcess.c|145|19|9|4306|9)
+=    arm_scale_q31(&SampleOut,((q31_t)(DriveLevel)<<26)+(1<<26),1,&SampleOut,1);  
+>undefined identifier 'SampleOut'
+C:/Freescale/CW10/MCU/ARM_Tools/Command_Line_Tools/mwccarm|Compiler|Error
+(C:\eli\PERSONAL\ACTIVE_PICKGUARD\SRC\KINETIS\ACTIVE_PICKGUARD\SRC\AudioProcess.c|147|22|8|4431|8)
+=    PickupTranslator(&SampleIn,&SampleOut);  
+>undefined identifier 'SampleIn'
+C:/Freescale/CW10/MCU/ARM_Tools/Command_Line_Tools/mwccarm|Compiler|Error
+(C:\eli\PERSONAL\ACTIVE_PICKGUARD\SRC\KINETIS\ACTIVE_PICKGUARD\SRC\AudioProcess.c|151|5|10|4479|10)
+=  if(MuteActive == TRUE)  
+>undefined identifier 'MuteActive'
+C:/Freescale/CW10/MCU/ARM_Tools/Command_Line_Tools/mwccarm|Compiler|Error
+(C:\eli\PERSONAL\ACTIVE_PICKGUARD\SRC\KINETIS\ACTIVE_PICKGUARD\SRC\AudioProcess.c|153|3|9|4508|9)
+=   SampleOut = 0;  
+>undefined identifier 'SampleOut'
+C:/Freescale/CW10/MCU/ARM_Tools/Command_Line_Tools/mwccarm|Compiler|Error
+(C:\eli\PERSONAL\ACTIVE_PICKGUARD\SRC\KINETIS\ACTIVE_PICKGUARD\SRC\AudioProcess.c|156|2|18|4535|18)
+=  QueuedDACSampleOut = TranslateForDAC(SampleOut);  
+>undefined identifier 'QueuedDACSampleOut'
+C:/Freescale/CW10/MCU/ARM_Tools/Command_Line_Tools/mwccarm|Compiler|Error
+(C:\eli\PERSONAL\ACTIVE_PICKGUARD\SRC\KINETIS\ACTIVE_PICKGUARD\SRC\AudioProcess.c|157|2|18|4587|18)
+=  QueuedI2CSampleOut = TranslateForI2S(SampleOut);  
+>undefined identifier 'QueuedI2CSampleOut'
+C:/Freescale/CW10/MCU/ARM_Tools/Command_Line_Tools/mwccarm|Compiler|Error
+(C:\eli\PERSONAL\ACTIVE_PICKGUARD\SRC\KINETIS\ACTIVE_PICKGUARD\SRC\AudioProcess.c|160|2|9|4666|9)
+=  ADC0_SC1A  =  DIFF_DIFFERENTIAL | 1;   
+>undefined identifier 'ADC0_SC1A'
+
+Errors caused tool to abort.
+C:\Freescale\CW10\gnu\bin\make: *** [SRC/AudioProcess.obj] Error 1

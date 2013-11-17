@@ -1,0 +1,28 @@
+Removed Pin From Net: NetName=NetC4_1 Pin=J2-5
+Removed Pin From Net: NetName=NetC4_1 Pin=J2-6
+Removed Pin From Net: NetName=AGND Pin=J3-4
+Removed Pin From Net: NetName=NetC4_1 Pin=R3-1
+Change Component Designator: OldDesignator=C4 NewDesignator=C26
+Added Component: Designator=R31(R0603)
+Added Component: Designator=R32(R0603)
+Added Component: Designator=R33(R0603)
+Added Pin To Net: NetName=NetC4_1 Pin=C4-1
+Added Pin To Net: NetName=NetC4_1 Pin=C23-2
+Added Pin To Net: NetName=NetC4_1 Pin=R26-2
+Added Pin To Net: NetName=NetC4_1 Pin=R28-1
+Added Pin To Net: NetName=NetC4_1 Pin=U9-1
+Added Pin To Net: NetName=NetC4_1 Pin=U9-4
+Added Pin To Net: NetName=NetC26_1 Pin=C26-1
+Added Pin To Net: NetName=NetC26_1 Pin=U10-1
+Added Pin To Net: NetName=NetC26_1 Pin=U10-4
+Added Net: Name=NetC26_1
+Added Pin To Net: NetName=NetC26_2 Pin=C26-2
+Added Pin To Net: NetName=NetC26_2 Pin=R29-1
+Added Pin To Net: NetName=NetC26_2 Pin=R32-1
+Added Net: Name=NetC26_2
+Added Pin To Net: NetName=NetJ2_5 Pin=J2-5
+Added Pin To Net: NetName=NetJ2_5 Pin=J2-6
+Added Pin To Net: NetName=NetJ2_5 Pin=R31-1
+Added Pin To Net: NetName=NetJ2_5 Pin=R32-2
+Added Pin To Net: NetName=NetJ2_5 Pin=R33-2
+Added Net: Name=NetJ2_5

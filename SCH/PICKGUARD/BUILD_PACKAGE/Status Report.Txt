@@ -1,0 +1,14 @@
+Project Outputs Generation Report
+---------------------------------
+Start Output Generation At 6:49:43 AM On 8/26/2011
+
+Output: BOM
+Type  : BOM
+From  : Variant [[No Variations]] of Project [ACTIVE_PICKGUARD.PrjPcb]
+   Generated File[BOM-ACTIVE_PICKGUARD.xls]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 7:01:04 AM On 8/26/2011

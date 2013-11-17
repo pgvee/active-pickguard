@@ -1,0 +1,16 @@
+Added Component: Designator=C32(C0603)
+Added Component: Designator=POT1(3310C-001-103L)
+Added Component: Designator=R35(R0603)
+Added Pin To Net: NetName=AGND Pin=C32-1
+Added Pin To Net: NetName=+3.3V_A Pin=C32-2
+Added Pin To Net: NetName=NetPOT1_1 Pin=POT1-1
+Added Pin To Net: NetName=NetPOT1_2 Pin=POT1-2
+Added Pin To Net: NetName=NetPOT1_3 Pin=POT1-3
+Added Pin To Net: NetName=AGND Pin=U1-4
+Added Pin To Net: NetName=+3.3V_A Pin=U1-7
+Added Pin To Net: NetName=NetR35_1 Pin=R35-1
+Added Pin To Net: NetName=NetR35_1 Pin=U1-8
+Added Net: Name=NetR35_1
+Added Pin To Net: NetName=NetR35_2 Pin=R35-2
+Added Pin To Net: NetName=NetR35_2 Pin=U1-1
+Added Net: Name=NetR35_2

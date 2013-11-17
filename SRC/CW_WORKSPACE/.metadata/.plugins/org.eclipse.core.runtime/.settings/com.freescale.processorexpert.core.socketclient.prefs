@@ -1,0 +1,9 @@
+#Tue Oct 18 08:23:00 EDT 2011
+localPEcommand=PEsrv.exe
+useLocalServer=true
+eclipse.preferences.version=1
+localPEpath=C\:\\Freescale\\CW10\\MCU\\ProcessorExpert
+localPEpathDefault=C\:\\Freescale\\CW10\\MCU\\ProcessorExpert
+autoStartLocalServer=true
+serverPort=9999
+serverName=localhost

@@ -1,0 +1,10 @@
+Added Component: Designator=R36(R0603)
+Added Component: Designator=R37(R0603)
+Added Pin To Net: NetName=NetR1_1 Pin=R37-2
+Added Pin To Net: NetName=NetR36_1 Pin=R36-1
+Added Pin To Net: NetName=NetR36_1 Pin=U1-6
+Added Net: Name=NetR36_1
+Added Pin To Net: NetName=NetR36_2 Pin=R36-2
+Added Pin To Net: NetName=NetR36_2 Pin=R37-1
+Added Pin To Net: NetName=NetR36_2 Pin=U2-3
+Added Net: Name=NetR36_2

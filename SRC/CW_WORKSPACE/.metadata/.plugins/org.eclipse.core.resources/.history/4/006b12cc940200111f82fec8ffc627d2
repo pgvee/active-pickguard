@@ -1,0 +1,66 @@
+/*
+ * main implementation: use this 'C' sample to create your own application
+ *
+ */
+
+
+
+#include <stdio.h>
+
+#include "derivative.h" /* include peripheral declarations */
+#include "Clock.h"
+//The E1 LED is on Port C, Bit 7
+#define LED_E1_LOC 0x80
+
+//A Manual software controlled delay routine
+void Block(long Value)
+{
+    long i;
+
+    for(i=0;i<Value;i++)
+    {
+    }
+}
+
+
+
+int main(void)
+{
+	int Size;
+
+	InitClock();
+	
+	printf("LED Example \n\r");
+
+    //To use a Port, its Clock must be enabled!!
+    //Lets just enable the clocks for ALL of the ports
+    SIM_SCGC5 = SIM_SCGC5_PORTA_MASK | SIM_SCGC5_PORTB_MASK | SIM_SCGC5_PORTC_MASK | SIM_SCGC5_PORTD_MASK | SIM_SCGC5_PORTE_MASK;
+
+
+    //Important!  Each IO pin has a dedicated 32-bit Register to set it up (Selection GPIO vs peripheral, IRQ, Etc.)
+    //Setup port C7 as GPIO and enable High Drive Strength
+    PORTC_PCR7 = PORT_PCR_MUX(1) | PORT_PCR_DSE_MASK;   //Enable GPIO on on the pin
+
+    //Make Sure the GPIO is setup to be an output
+    GPIOC_PDDR |= LED_E1_LOC;
+
+    for(;;) {
+
+
+        //There are dedicated set and clear registers.
+        //Write a one to PSOR Sets the Bits, Writing to PCOR clears bits.
+        //Toggling a bit can be done with the PTOR register
+        //You can access the raw register as well -> PDOR |= My Bit
+        //but the dedicated bit set/clear/toggle registers are easier!
+
+        //Also,  The cathode of the LEDs are towards the port pin!  This means
+        //you have to turn the port off to get the LED to turn the pin on.
+
+        GPIOC_PTOR = LED_E1_LOC;  //turns the LED Off;
+        Block(1000000);
+    }
+
+    return 0;
+}
+
+

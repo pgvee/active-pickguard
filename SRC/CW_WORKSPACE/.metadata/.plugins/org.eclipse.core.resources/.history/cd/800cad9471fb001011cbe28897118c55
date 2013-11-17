@@ -1,0 +1,222 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+-include ../makefile.local
+
+# Add inputs and outputs from these tool invocations to the build variables 
+C_SRCS_QUOTED += \
+"../Sources/RealTimerCounter_kinetis.c" \
+"../Sources/kinetis_sysinit.c" \
+"../Sources/main_kinetis.c" \
+"../Sources/printf.c" \
+"../Sources/usb_cdc.c" \
+"../Sources/usb_cdc_pstn.c" \
+"../Sources/usb_class.c" \
+"../Sources/usb_dci_kinetis.c" \
+"../Sources/usb_descriptor.c" \
+"../Sources/usb_driver.c" \
+"../Sources/usb_framework.c" \
+"../Sources/usbevent.c" \
+"../Sources/vectors.c" \
+"../Sources/virtual_com.c" \
+"../Sources/wdt_kinetis.c" \
+
+C_SRCS += \
+../Sources/RealTimerCounter_kinetis.c \
+../Sources/kinetis_sysinit.c \
+../Sources/main_kinetis.c \
+../Sources/printf.c \
+../Sources/usb_cdc.c \
+../Sources/usb_cdc_pstn.c \
+../Sources/usb_class.c \
+../Sources/usb_dci_kinetis.c \
+../Sources/usb_descriptor.c \
+../Sources/usb_driver.c \
+../Sources/usb_framework.c \
+../Sources/usbevent.c \
+../Sources/vectors.c \
+../Sources/virtual_com.c \
+../Sources/wdt_kinetis.c \
+
+OBJS += \
+./Sources/RealTimerCounter_kinetis.obj \
+./Sources/kinetis_sysinit.obj \
+./Sources/main_kinetis.obj \
+./Sources/printf.obj \
+./Sources/usb_cdc.obj \
+./Sources/usb_cdc_pstn.obj \
+./Sources/usb_class.obj \
+./Sources/usb_dci_kinetis.obj \
+./Sources/usb_descriptor.obj \
+./Sources/usb_driver.obj \
+./Sources/usb_framework.obj \
+./Sources/usbevent.obj \
+./Sources/vectors.obj \
+./Sources/virtual_com.obj \
+./Sources/wdt_kinetis.obj \
+
+C_DEPS += \
+./Sources/RealTimerCounter_kinetis.d \
+./Sources/kinetis_sysinit.d \
+./Sources/main_kinetis.d \
+./Sources/printf.d \
+./Sources/usb_cdc.d \
+./Sources/usb_cdc_pstn.d \
+./Sources/usb_class.d \
+./Sources/usb_dci_kinetis.d \
+./Sources/usb_descriptor.d \
+./Sources/usb_driver.d \
+./Sources/usb_framework.d \
+./Sources/usbevent.d \
+./Sources/vectors.d \
+./Sources/virtual_com.d \
+./Sources/wdt_kinetis.d \
+
+OBJS_QUOTED += \
+"./Sources/RealTimerCounter_kinetis.obj" \
+"./Sources/kinetis_sysinit.obj" \
+"./Sources/main_kinetis.obj" \
+"./Sources/printf.obj" \
+"./Sources/usb_cdc.obj" \
+"./Sources/usb_cdc_pstn.obj" \
+"./Sources/usb_class.obj" \
+"./Sources/usb_dci_kinetis.obj" \
+"./Sources/usb_descriptor.obj" \
+"./Sources/usb_driver.obj" \
+"./Sources/usb_framework.obj" \
+"./Sources/usbevent.obj" \
+"./Sources/vectors.obj" \
+"./Sources/virtual_com.obj" \
+"./Sources/wdt_kinetis.obj" \
+
+OBJS_OS_FORMAT += \
+./Sources/RealTimerCounter_kinetis.obj \
+./Sources/kinetis_sysinit.obj \
+./Sources/main_kinetis.obj \
+./Sources/printf.obj \
+./Sources/usb_cdc.obj \
+./Sources/usb_cdc_pstn.obj \
+./Sources/usb_class.obj \
+./Sources/usb_dci_kinetis.obj \
+./Sources/usb_descriptor.obj \
+./Sources/usb_driver.obj \
+./Sources/usb_framework.obj \
+./Sources/usbevent.obj \
+./Sources/vectors.obj \
+./Sources/virtual_com.obj \
+./Sources/wdt_kinetis.obj \
+
+
+# Each subdirectory must supply rules for building sources it contributes
+Sources/RealTimerCounter_kinetis.obj: ../Sources/RealTimerCounter_kinetis.c
+	@echo 'Building file: $<'
+	@echo 'Invoking: ARM Compiler'
+	"$(ARM_ToolsDirEnv)/mwccarm" -gccinc @@"Sources/RealTimerCounter_kinetis.args" -o "Sources/RealTimerCounter_kinetis.obj" -c "$<" -MD -gccdep
+	@echo 'Finished building: $<'
+	@echo ' '
+
+Sources/%.d: ../Sources/%.c
+	@echo 'Regenerating dependency file: $@'
+	
+	@echo ' '
+
+Sources/kinetis_sysinit.obj: ../Sources/kinetis_sysinit.c
+	@echo 'Building file: $<'
+	@echo 'Invoking: ARM Compiler'
+	"$(ARM_ToolsDirEnv)/mwccarm" -gccinc @@"Sources/kinetis_sysinit.args" -o "Sources/kinetis_sysinit.obj" -c "$<" -MD -gccdep
+	@echo 'Finished building: $<'
+	@echo ' '
+
+Sources/main_kinetis.obj: ../Sources/main_kinetis.c
+	@echo 'Building file: $<'
+	@echo 'Invoking: ARM Compiler'
+	"$(ARM_ToolsDirEnv)/mwccarm" -gccinc @@"Sources/main_kinetis.args" -o "Sources/main_kinetis.obj" -c "$<" -MD -gccdep
+	@echo 'Finished building: $<'
+	@echo ' '
+
+Sources/printf.obj: ../Sources/printf.c
+	@echo 'Building file: $<'
+	@echo 'Invoking: ARM Compiler'
+	"$(ARM_ToolsDirEnv)/mwccarm" -gccinc @@"Sources/printf.args" -o "Sources/printf.obj" -c "$<" -MD -gccdep
+	@echo 'Finished building: $<'
+	@echo ' '
+
+Sources/usb_cdc.obj: ../Sources/usb_cdc.c
+	@echo 'Building file: $<'
+	@echo 'Invoking: ARM Compiler'
+	"$(ARM_ToolsDirEnv)/mwccarm" -gccinc @@"Sources/usb_cdc.args" -o "Sources/usb_cdc.obj" -c "$<" -MD -gccdep
+	@echo 'Finished building: $<'
+	@echo ' '
+
+Sources/usb_cdc_pstn.obj: ../Sources/usb_cdc_pstn.c
+	@echo 'Building file: $<'
+	@echo 'Invoking: ARM Compiler'
+	"$(ARM_ToolsDirEnv)/mwccarm" -gccinc @@"Sources/usb_cdc_pstn.args" -o "Sources/usb_cdc_pstn.obj" -c "$<" -MD -gccdep
+	@echo 'Finished building: $<'
+	@echo ' '
+
+Sources/usb_class.obj: ../Sources/usb_class.c
+	@echo 'Building file: $<'
+	@echo 'Invoking: ARM Compiler'
+	"$(ARM_ToolsDirEnv)/mwccarm" -gccinc @@"Sources/usb_class.args" -o "Sources/usb_class.obj" -c "$<" -MD -gccdep
+	@echo 'Finished building: $<'
+	@echo ' '
+
+Sources/usb_dci_kinetis.obj: ../Sources/usb_dci_kinetis.c
+	@echo 'Building file: $<'
+	@echo 'Invoking: ARM Compiler'
+	"$(ARM_ToolsDirEnv)/mwccarm" -gccinc @@"Sources/usb_dci_kinetis.args" -o "Sources/usb_dci_kinetis.obj" -c "$<" -MD -gccdep
+	@echo 'Finished building: $<'
+	@echo ' '
+
+Sources/usb_descriptor.obj: ../Sources/usb_descriptor.c
+	@echo 'Building file: $<'
+	@echo 'Invoking: ARM Compiler'
+	"$(ARM_ToolsDirEnv)/mwccarm" -gccinc @@"Sources/usb_descriptor.args" -o "Sources/usb_descriptor.obj" -c "$<" -MD -gccdep
+	@echo 'Finished building: $<'
+	@echo ' '
+
+Sources/usb_driver.obj: ../Sources/usb_driver.c
+	@echo 'Building file: $<'
+	@echo 'Invoking: ARM Compiler'
+	"$(ARM_ToolsDirEnv)/mwccarm" -gccinc @@"Sources/usb_driver.args" -o "Sources/usb_driver.obj" -c "$<" -MD -gccdep
+	@echo 'Finished building: $<'
+	@echo ' '
+
+Sources/usb_framework.obj: ../Sources/usb_framework.c
+	@echo 'Building file: $<'
+	@echo 'Invoking: ARM Compiler'
+	"$(ARM_ToolsDirEnv)/mwccarm" -gccinc @@"Sources/usb_framework.args" -o "Sources/usb_framework.obj" -c "$<" -MD -gccdep
+	@echo 'Finished building: $<'
+	@echo ' '
+
+Sources/usbevent.obj: ../Sources/usbevent.c
+	@echo 'Building file: $<'
+	@echo 'Invoking: ARM Compiler'
+	"$(ARM_ToolsDirEnv)/mwccarm" -gccinc @@"Sources/usbevent.args" -o "Sources/usbevent.obj" -c "$<" -MD -gccdep
+	@echo 'Finished building: $<'
+	@echo ' '
+
+Sources/vectors.obj: ../Sources/vectors.c
+	@echo 'Building file: $<'
+	@echo 'Invoking: ARM Compiler'
+	"$(ARM_ToolsDirEnv)/mwccarm" -gccinc @@"Sources/vectors.args" -o "Sources/vectors.obj" -c "$<" -MD -gccdep
+	@echo 'Finished building: $<'
+	@echo ' '
+
+Sources/virtual_com.obj: ../Sources/virtual_com.c
+	@echo 'Building file: $<'
+	@echo 'Invoking: ARM Compiler'
+	"$(ARM_ToolsDirEnv)/mwccarm" -gccinc @@"Sources/virtual_com.args" -o "Sources/virtual_com.obj" -c "$<" -MD -gccdep
+	@echo 'Finished building: $<'
+	@echo ' '
+
+Sources/wdt_kinetis.obj: ../Sources/wdt_kinetis.c
+	@echo 'Building file: $<'
+	@echo 'Invoking: ARM Compiler'
+	"$(ARM_ToolsDirEnv)/mwccarm" -gccinc @@"Sources/wdt_kinetis.args" -o "Sources/wdt_kinetis.obj" -c "$<" -MD -gccdep
+	@echo 'Finished building: $<'
+	@echo ' '
+
+

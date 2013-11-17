@@ -1,0 +1,50 @@
+Removed Pin From Net: NetName=GND Pin=C17-1
+Removed Pin From Net: NetName=GND Pin=C18-2
+Removed Pin From Net: NetName=GND Pin=D1-C
+Added Component: Designator=C4(C0805_1.4MM)
+Added Component: Designator=C4(C0805_1.4MM)
+Added Component: Designator=C21(C0603)
+Added Component: Designator=C22(C0805_1.4MM)
+Added Component: Designator=C23(C0805_1.4MM)
+Added Component: Designator=C24(C0603)
+Added Component: Designator=J2(ACJS-MHDR)
+Added Component: Designator=J3(ACJS-MHDR)
+Added Component: Designator=R24(R0603)
+Added Component: Designator=R25(R0603)
+Added Component: Designator=R26(R0603)
+Added Component: Designator=R27(R0603)
+Added Component: Designator=R28(R0603)
+Added Component: Designator=R29(R0603)
+Added Component: Designator=U9(SOT95P245X145-5L)
+Added Component: Designator=U10(SOT95P245X145-5L)
+Added Pin To Net: NetName=AGND Pin=C17-1
+Added Pin To Net: NetName=AGND Pin=C18-2
+Added Pin To Net: NetName=+3.3V_A Pin=C21-1
+Added Pin To Net: NetName=AGND Pin=C21-2
+Added Pin To Net: NetName=AGND Pin=C22-2
+Added Pin To Net: NetName=AGND Pin=C23-1
+Added Pin To Net: NetName=+3.3V_A Pin=C24-1
+Added Pin To Net: NetName=AGND Pin=C24-2
+Added Pin To Net: NetName=AGND Pin=J2-4
+Added Pin To Net: NetName=NetC4_1 Pin=J2-5
+Added Pin To Net: NetName=NetC4_1 Pin=J2-6
+Added Pin To Net: NetName=AGND Pin=J3-4
+Added Pin To Net: NetName=AGND Pin=R24-1
+Added Pin To Net: NetName=AGND Pin=R27-2
+Added Pin To Net: NetName=AGND Pin=R28-2
+Added Pin To Net: NetName=AGND Pin=R29-2
+Added Pin To Net: NetName=AGND Pin=U9-2
+Added Pin To Net: NetName=+3.3V_A Pin=U9-5
+Added Pin To Net: NetName=AGND Pin=U10-2
+Added Pin To Net: NetName=+3.3V_A Pin=U10-5
+Added Pin To Net: NetName=NetC22_1 Pin=C22-1
+Added Pin To Net: NetName=NetC22_1 Pin=R24-2
+Added Pin To Net: NetName=NetC22_1 Pin=R25-2
+Added Pin To Net: NetName=NetC22_1 Pin=U9-3
+Added Net: Name=NetC22_1
+Added Pin To Net: NetName=NetR25_1 Pin=R25-1
+Added Pin To Net: NetName=NetR25_1 Pin=U4-10
+Added Net: Name=NetR25_1
+Added Pin To Net: NetName=NetR26_1 Pin=R26-1
+Added Pin To Net: NetName=NetR26_1 Pin=U4-7
+Added Net: Name=NetR26_1

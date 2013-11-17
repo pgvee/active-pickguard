@@ -1,0 +1,21 @@
+Removed Pin From Net: NetName=GND Pin=C6-2
+Removed Pin From Net: NetName=+3.3V_A Pin=C7-1
+Removed Pin From Net: NetName=GND Pin=C7-2
+Removed Pin From Net: NetName=GND Pin=C8-1
+Removed Pin From Net: NetName=+3.3V_A Pin=C8-2
+Removed Pin From Net: NetName=GND Pin=C9-1
+Removed Pin From Net: NetName=GND Pin=C11-1
+Removed Pin From Net: NetName=GND Pin=C22-2
+Removed Pin From Net: NetName=GND Pin=C23-1
+Removed Pin From Net: NetName=GND Pin=R24-1
+Removed Pin From Net: NetName=GND Pin=R28-2
+Removed Pin From Net: NetName=AUDIO_LEFT Pin=R32-2
+Removed Pin From Net: NetName=AUDIO_RIGHT Pin=R33-2
+Removed Pin From Net: NetName=SDIN Pin=U4-1
+Removed Pin From Net: NetName=SCLK Pin=U4-2
+Removed Pin From Net: NetName=LRCK Pin=U4-3
+Removed Pin From Net: NetName=MCLK Pin=U4-4
+Removed Pin From Net: NetName=GND Pin=U4-8
+Removed Pin From Net: NetName=+3.3V_A Pin=U4-9
+Added Class: Name=PICKGUARD_TRANSMITTER
+Added Room: Name=PICKGUARD_TRANSMITTER
