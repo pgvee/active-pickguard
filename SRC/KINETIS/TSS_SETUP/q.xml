@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<options>
+  <option name="ElectrodesNumber">12</option>
+  <option name="ControlsNumber">7</option>
+  <option name="TimerCTL">true</option>
+  <option name="Timer">       TPM</option>
+  <option name="PrescalerCTL">true</option>
+  <option name="Prescaler">            2</option>
+  <option name="TSS_TimeoutCTL">true</option>
+  <option name="TSS_Timeout">1023</option>
+  <option name="DELTA_LOG">false</option>
+  <option name="SIGNAL_LOG">false</option>
+  <option name="SET_STRENGTH">true</option>
+  <option name="SET_SLEW_RATE">true</option>
+  <option name="USE_IIR_FILTER">false</option>
+  <option name="USE_NOISE_WINDOW">false</option>
+  <option name="USE_ON_FAULT">true</option>
+  <option name="ON_FAULT_FUNCTION">TSS_fOnFault</option>
+  <option name="USE_ON_INIT">false</option>
+  <option name="ON_INIT_FUNCTION">TSS_fOnInit</option>
+  <option name="USE_FREE_MASTER">false</option>
+  <option name="ENABLE_DIAGNOSTIC_MESSAGES">false</option>
+  <option name="USE_DATA_CORRUPTION">false</option>
+  <option name="AUTOTRIGER_SOURCE">      TSI0</option>
+  <option name="LP_SOURCE">      TSI0</option>
+  <option name="AM_CLOCK_SOURCE">      BUSCLK</option>
+  <option name="AM_CLOCK_DIVIDER">                   1</option>
+  <option name="AM_CLOCK_PRESCALER">                   1</option>
+  <option name="LP_CLOCK_SOURCE">      LPOCLK</option>
+  <option name="TSI_RESOLUTION">8</option>
+  <option name="CHARGE_LOW_LIMIT">0</option>
+  <option name="CHARGE_HIGH_LIMIT">31</option>
+  <option name="PS_LOW_LIMIT">0</option>
+  <option name="PS_HIGH_LIMIT">7</option>
+  <option name="Electrodes">
+    <Electrode name="Electrode0">
+      <port></port>
+      <Bit>0</Bit>
+      <Meth>TSI0_CH6</Meth>
+      <Wsize>255</Wsize>
+      <Check>true</Check>
+    </Electrode>
+    <Electrode name="Electrode1">
+      <port></port>
+      <Bit>0</Bit>
+      <Meth>TSI0_CH7</Meth>
+      <Wsize>255</Wsize>
+      <Check>true</Check>
+    </Electrode>
+    <Electrode name="Electrode2">
+      <port></port>
+      <Bit>0</Bit>
+      <Meth>TSI0_CH8</Meth>
+      <Wsize>255</Wsize>
+      <Check>true</Check>
+    </Electrode>
+    <Electrode name="Electrode3">
+      <port></port>
+      <Bit>0</Bit>
+      <Meth>TSI0_CH9</Meth>
+      <Wsize>255</Wsize>
+      <Check>true</Check>
+    </Electrode>
+    <Electrode name="Electrode4">
+      <port></port>
+      <Bit>0</Bit>
+      <Meth>TSI0_CH10</Meth>
+      <Wsize>255</Wsize>
+      <Check>true</Check>
+    </Electrode>
+    <Electrode name="Electrode5">
+      <port></port>
+      <Bit>0</Bit>
+      <Meth>TSI0_CH11</Meth>
+      <Wsize>255</Wsize>
+      <Check>true</Check>
+    </Electrode>
+    <Electrode name="Electrode6">
+      <port></port>
+      <Bit>0</Bit>
+      <Meth>TSI0_CH0</Meth>
+      <Wsize>255</Wsize>
+      <Check>true</Check>
+    </Electrode>
+    <Electrode name="Electrode7">
+      <port></port>
+      <Bit>0</Bit>
+      <Meth>TSI0_CH5</Meth>
+      <Wsize>255</Wsize>
+      <Check>true</Check>
+    </Electrode>
+    <Electrode name="Electrode8">
+      <port></port>
+      <Bit>0</Bit>
+      <Meth>TSI0_CH15</Meth>
+      <Wsize>255</Wsize>
+      <Check>true</Check>
+    </Electrode>
+    <Electrode name="Electrode9">
+      <port></port>
+      <Bit>0</Bit>
+      <Meth>TSI0_CH12</Meth>
+      <Wsize>255</Wsize>
+      <Check>true</Check>
+    </Electrode>
+    <Electrode name="Electrode10">
+      <port></port>
+      <Bit>0</Bit>
+      <Meth>TSI0_CH13</Meth>
+      <Wsize>255</Wsize>
+      <Check>true</Check>
+    </Electrode>
+    <Electrode name="Electrode11">
+      <port></port>
+      <Bit>0</Bit>
+      <Meth>TSI0_CH4</Meth>
+      <Wsize>255</Wsize>
+      <Check>true</Check>
+    </Electrode>
+  </option>
+  <option name="Controls">
+    <Control name="Control0">
+      <type>ROTARY</type>
+      <Electrodes>6</Electrodes>
+      <Struct>VolumeWheel</Struct>
+      <CallBack>TSS1_VolumeWheel</CallBack>
+    </Control>
+    <Control name="Control1">
+      <type>KEYPAD</type>
+      <Electrodes>1</Electrodes>
+      <Struct>ToneVolumeSelect</Struct>
+      <CallBack>TSS1_ToneVolumeSelect</CallBack>
+    </Control>
+    <Control name="Control2">
+      <type>KEYPAD</type>
+      <Electrodes>1</Electrodes>
+      <Struct>Mute</Struct>
+      <CallBack>TSS1_Mute</CallBack>
+    </Control>
+    <Control name="Control3">
+      <type>KEYPAD</type>
+      <Electrodes>1</Electrodes>
+      <Struct>Delta</Struct>
+      <CallBack>TSS1_Delta</CallBack>
+    </Control>
+    <Control name="Control4">
+      <type>KEYPAD</type>
+      <Electrodes>1</Electrodes>
+      <Struct>Alpha</Struct>
+      <CallBack>TSS1_Alpha</CallBack>
+    </Control>
+    <Control name="Control5">
+      <type>KEYPAD</type>
+      <Electrodes>1</Electrodes>
+      <Struct>Beta</Struct>
+      <CallBack>TSS1_Beta</CallBack>
+    </Control>
+    <Control name="Control6">
+      <type>KEYPAD</type>
+      <Electrodes>1</Electrodes>
+      <Struct>Gamma</Struct>
+      <CallBack>TSS1_Gamma</CallBack>
+    </Control>
+  </option>
+</options>
