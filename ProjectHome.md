@@ -1,0 +1,1 @@
+Here you will find all of the code, schematics, hardware designs, etc for the active pickguard Project for the 2011 Kinetis Design Challenge
